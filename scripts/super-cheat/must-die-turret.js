@@ -63,9 +63,9 @@ const destoryBeamBulletType = (() => {
         bt.pierceBuilding = false;
         bt.healPercent = 500;
         bt.speed = 3.5;
-        bt.damage = Infinity;
+        bt.damage = 200;
         bt.homingPower = 0.3;
-        bt.homingRange = 50;
+        bt.homingRange = 150;
         bt.splashDamage = 3;
         bt.splashDamageRadius = 10;
         bt.hitEffect = hitEffect;
@@ -135,10 +135,10 @@ const destoryBeamBulletType = (() => {
     bt.hitSize = 8;
     bt.healPercent = 1000;
     bt.speed = 6;
-    bt.damage = Infinity;
+    bt.damage = 200;
     bt.homingPower = 0.3;
     bt.homingRange = 240;
-    bt.splashDamage = Infinity;
+    bt.splashDamage = 20;
     bt.splashDamageRadius = 30;
     bt.shootEffect = Fx.none;
     bt.hitEffect = hitEffect;
