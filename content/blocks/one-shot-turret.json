@@ -1,13 +1,13 @@
 {
     "category": "turret",
-    "size": 2,
+    "size": 1,
     "health": 6000,
-    "range": 600,
-    "reload": 30,
+    "range": 4000,
+    "reload": 60,
     "inaccuracy": 0,
     "rotateSpeed": 22,
     "targetInterval": 0,
-    "shootCone": 2,
+    "shootCone": 1,
     "shootSound": "shootBig",
     "consumes": {
         "coolant": {
