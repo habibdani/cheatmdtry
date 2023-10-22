@@ -70,7 +70,7 @@ const destoryBeamBulletType = (() => {
         bt.splashDamageRadius = 10;
         bt.hitEffect = hitEffect;
         bt.despawnEffect = despawnEffect;
-        bt.lifetime = 35;
+        bt.lifetime = 100;
         bt.shootEffect = Fx.none;
         return bt;
     })();
@@ -79,8 +79,8 @@ const destoryBeamBulletType = (() => {
     const tailEffect = lib.newEffect(tailEffectTime, e => {
         Draw.color(Color.black, THE_COLOR, Math.max(0, e.fout() * 2 - 1));
         Drawf.tri(e.x, e.y, 8 * e.fout(), 16, e.rotation);
-        Drawf.tri(e.x, e.y, 8 * e.fout(), 30 * Math.min(1, e.data.time / 20), e.rotation - 180);
-        // Drawf.tri(e.x, e.y, 8 * e.fout(), 30 * Math.min(1, e.data.time / 8 * 0.8 + 0.2), e.rotation - 180);
+        // Drawf.tri(e.x, e.y, 8 * e.fout(), 30 * Math.min(1, e.data.time / 20), e.rotation - 180);
+        Drawf.tri(e.x, e.y, 8 * e.fout(), 30 * Math.min(1, e.data.time / 8 * 0.8 + 0.2), e.rotation - 180);
     });
 
     const hitEffect = lib.newEffect(8, (e) => {
@@ -110,8 +110,8 @@ const destoryBeamBulletType = (() => {
             // Lines.lineAngleCenter(b.x, b.y, b.rotation(), 1);
 
             Drawf.tri(b.x, b.y, 8, 16, b.rotation());
-            Drawf.tri(b.x, b.y, 8, 30 * Math.min(1, b.time / this.speed * 20), b.rotation() - 180);
-            // Drawf.tri(b.x, b.y, 8, 30 * Math.min(1, b.time / this.speed * 0.8 + 0.2), b.rotation() - 180);
+            // Drawf.tri(b.x, b.y, 8, 30 * Math.min(1, b.time / this.speed * 20), b.rotation() - 180);
+            Drawf.tri(b.x, b.y, 8, 30 * Math.min(1, b.time / this.speed * 0.8 + 0.2), b.rotation() - 180);
             Draw.reset();
         },
         update(b) {
