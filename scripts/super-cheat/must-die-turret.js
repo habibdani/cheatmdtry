@@ -61,7 +61,7 @@ const destoryBeamBulletType = (() => {
         bt.pierce = true;
         bt.pierceCap = 1;
         bt.pierceBuilding = false;
-        bt.healPercent = 500;
+        bt.healPercent = 50;
         bt.speed = 3.5;
         bt.damage = 5;
         bt.homingPower = 0.3;
@@ -70,7 +70,7 @@ const destoryBeamBulletType = (() => {
         bt.splashDamageRadius = 10;
         bt.hitEffect = hitEffect;
         bt.despawnEffect = despawnEffect;
-        bt.lifetime = 100;
+        bt.lifetime = 200;
         bt.shootEffect = Fx.none;
         return bt;
     })();
@@ -135,9 +135,9 @@ const destoryBeamBulletType = (() => {
     bt.pierceCap = 1;
     bt.pierceBuilding = false;
     bt.hitSize = 8;
-    bt.healPercent = 1000;
-    bt.speed = 5;
-    bt.damage = 10;
+    bt.healPercent = 100;
+    bt.speed = 25;
+    bt.damage = 5;
     bt.homingPower = 0.3;
     bt.homingRange = 1000;
     bt.splashDamage = 5;
@@ -146,8 +146,8 @@ const destoryBeamBulletType = (() => {
     bt.hitEffect = hitEffect;
     bt.despawnEffect = despawnEffect;
     bt.fragBullet = fragBulletType;
-    bt.fragBullets = 3;
-    bt.lifetime = 700;
+    bt.fragBullets = 4;
+    bt.lifetime = 400;
     return bt;
 })();
 
