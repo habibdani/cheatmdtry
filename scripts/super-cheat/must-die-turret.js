@@ -59,7 +59,7 @@ const destoryBeamBulletType = (() => {
             },
         });
         bt.pierce = true;
-        bt.pierceCap = 6;
+        bt.pierceCap = 1;
         bt.pierceBuilding = false;
         bt.healPercent = 500;
         bt.speed = 3.5;
@@ -130,14 +130,14 @@ const destoryBeamBulletType = (() => {
         },
     });
     bt.pierce = true;
-    bt.pierceCap = 6;
+    bt.pierceCap = 1;
     bt.pierceBuilding = false;
     bt.hitSize = 8;
     bt.healPercent = 1000;
     bt.speed = 5;
-    bt.damage = 20;
+    bt.damage = 10;
     bt.homingPower = 0.3;
-    bt.homingRange = 4000;
+    bt.homingRange = 1000;
     bt.splashDamage = 5;
     bt.splashDamageRadius = 30;
     bt.shootEffect = Fx.none;
