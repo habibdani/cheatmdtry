@@ -134,8 +134,8 @@ const destoryBeamBulletType = (() => {
     bt.pierceBuilding = false;
     bt.hitSize = 8;
     bt.healPercent = 1000;
-    bt.speed = 6;
-    bt.damage = 10;
+    bt.speed = 1;
+    bt.damage = 20;
     bt.homingPower = 0.3;
     bt.homingRange = 50;
     bt.splashDamage = 5;
