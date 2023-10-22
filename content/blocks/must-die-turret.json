@@ -1,11 +1,11 @@
 {
     "category": "turret",
     "health": 6000,
-    "range": 2000,
+    "range": 4000,
     "inaccuracy": 25,
     "rotateSpeed": 20,
     "targetInterval": 0,
-    "shootCone": 8,
+    "shootCone": 1,
     "shootSound": "shootBig",
     "requirements": [],
     "research": "cheat-item"
