@@ -5,7 +5,7 @@
     "inaccuracy": 25,
     "rotateSpeed": 20,
     "targetInterval": 0,
-    "shootCone": 80,
+    "shootCone": 8,
     "shootSound": "shootBig",
     "requirements": [],
     "research": "cheat-item"
