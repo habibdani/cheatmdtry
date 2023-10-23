@@ -5,18 +5,18 @@ const lib = require('super-cheat/lib');
 
 
 const destoryBeamBulletType = (() => {
-    const THE_COLOR = Color.purple;
+    const THE_COLOR = Color.white;
 
     const fragBulletType = (() => {
 
         const hitEffect = lib.newEffect(8, (e) => {
-            Draw.color(Color.black, THE_COLOR, e.fin());
+            Draw.color(Color.blue, THE_COLOR, e.fin());
             Lines.stroke(0.5 + e.fout());
             Lines.circle(e.x, e.y, e.fin() * 10);
         });
 
         const despawnEffect = lib.newEffect(8, (e) => {
-            Draw.color(Color.black, THE_COLOR, e.fin());
+            Draw.color(Color.blue, THE_COLOR, e.fin());
             Lines.stroke(0.5 + e.fout());
             Lines.circle(e.x, e.y, e.fin() * 5);
         });
@@ -77,20 +77,20 @@ const destoryBeamBulletType = (() => {
 
     const tailEffectTime = 12;
     const tailEffect = lib.newEffect(tailEffectTime, e => {
-        Draw.color(Color.black, THE_COLOR, Math.max(0, e.fout() * 2 - 1));
+        Draw.color(Color.blue, THE_COLOR, Math.max(0, e.fout() * 2 - 1));
         Drawf.tri(e.x, e.y, 8 * e.fout(), 16, e.rotation);
         // Drawf.tri(e.x, e.y, 8 * e.fout(), 30 * Math.min(1, e.data.time / 20), e.rotation - 180);
         Drawf.tri(e.x, e.y, 8 * e.fout(), 30 * Math.min(1, e.data.time / 8 * 0.8 + 0.2), e.rotation - 180);
     });
 
     const hitEffect = lib.newEffect(8, (e) => {
-        Draw.color(Color.black, THE_COLOR, e.fin());
+        Draw.color(Color.blue, THE_COLOR, e.fin());
         Lines.stroke(0.5 + e.fout());
         Lines.circle(e.x, e.y, e.fin() * 30);
     });
 
     const despawnEffect = lib.newEffect(8, (e) => {
-        Draw.color(Color.black, THE_COLOR, e.fin());
+        Draw.color(Color.blue, THE_COLOR, e.fin());
         Lines.stroke(0.5 + e.fout());
         Lines.circle(e.x, e.y, e.fin() * 5);
     });
