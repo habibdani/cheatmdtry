@@ -2,6 +2,7 @@
     "category": "turret",
     "health": 6000,
     "range": 4000,
+    "damage": 10,
     "reload": 500,
     "inaccuracy": 0,
     "rotateSpeed": 20,
