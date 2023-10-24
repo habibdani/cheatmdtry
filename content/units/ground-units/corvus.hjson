@@ -121,7 +121,7 @@ weapons: [
 	lightningAngleRand: 50
         lightningSpacing: 35
 	lightningDamage: 1000
-	lightningDelay: 1.05
+	lightningDelay: 1
         lightningLength: 5
 
 	colors: [ c67fff, f69fff ]
@@ -147,7 +147,7 @@ weapons: [
             {
                 type: WaveEffect
                 startDelay: 120
-                lifetime: 24
+                lifetime: 240
                 sizeFrom: 0
                 sizeTo: 15
                 strokeFrom: 0
@@ -203,7 +203,7 @@ weapons: [
                 length: -60
                 cone: 360
                 particles: 15
-                lifetime: 30
+                lifetime: 300
                 sizeFrom: 2.5
                 sizeTo: 0
                 colorFrom: c67fff
@@ -219,7 +219,7 @@ weapons: [
                 length: -50
                 cone: 360
                 particles: 5
-                lifetime: 30
+                lifetime: 300
                 sizeFrom: 5
                 sizeTo: 0
                 colorFrom: c67fff
@@ -235,7 +235,7 @@ weapons: [
                 length: -20
                 cone: 360
                 particles: 3
-                lifetime: 30
+                lifetime: 300
                 sizeFrom: 9
                 sizeTo: 0
                 colorFrom: c67fff
@@ -452,7 +452,7 @@ weapons: [
  {
     name: quell-weapon
     layerOffset: 0.001
-    rotationLimit: 115
+    rotationLimit: 90
     baseRotation: 0
     alternate: false
     rotateSpeed: 3
@@ -461,7 +461,7 @@ weapons: [
     x: 5
     y: -11
 
-    reload: 50
+    reload: 60
 
     shootSound: missileSmall
 
