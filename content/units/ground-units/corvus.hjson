@@ -426,7 +426,6 @@ weapons: [
     bullet: {
         type: ContinuousLaserBulletType
         collidesTeam: true
-        collidesAir: false
         drawSize: 120
         maxRange: 200
         length: 550
@@ -469,7 +468,6 @@ weapons: [
         type: BulletType
         spawnUnit: quell-missile
         keepVelocity: false
-        collidesAir: false
 
         speed: 0
 
