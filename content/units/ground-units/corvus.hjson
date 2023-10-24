@@ -17,7 +17,7 @@ abilities: [
         "rotateSpeed": 30,
         "reload": 1,
         "sectors": 1,
-        "effectRadius": 30
+        "effectRadius": 5
     },
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
