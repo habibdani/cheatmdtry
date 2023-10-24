@@ -272,7 +272,7 @@ weapons: [
     layerOffset: -0.0001
     shootCone: 45
     recoil: 5
-    x: 8
+    x: 7
     y: 11.5
 
     shootY: 11
