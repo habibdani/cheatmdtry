@@ -5,8 +5,6 @@ fogRadius: 150
 
 itemCapacity: 940
 health: 8000
-regen: 500
-max: 10000
 rotateSpeed: 1.2
 speed: 0.75
 armor: 11
@@ -20,7 +18,6 @@ abilities: [
         "reload": 1,
         "sectors": 1,
         "effectRadius": 3
-        // "radius": 150
     },
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
@@ -58,11 +55,9 @@ abilities: [
     max: 2300
     }
 {
-    type: ShieldRegenFieldAbility 
-    reload: 30
-    amount: 100
-    range: 60
-    max: 120
+    type: RegenAbility
+    amount: 500
+    percentAmount: 50
     }
 ]
 
@@ -130,9 +125,9 @@ weapons: [
 	lightningDelay: 1.1
         lightningLength: 5
 
-	colors: [ b91111, ffffff ]
-	lightningColor: b91111
-	lightColor: b91111
+	colors: [ c67fff, ffffff ]
+	lightningColor: c67fff
+	lightColor: c67fff
 
         parentizeEffects: true
         chargeEffect: {
@@ -145,7 +140,7 @@ weapons: [
                 sizeTo: 7
                 strokeFrom: 0
                 strokeTo: 7
-                colorFrom: b91111
+                colorFrom: c67fff
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -158,7 +153,7 @@ weapons: [
                 sizeTo: 15
                 strokeFrom: 0
                 strokeTo: 7
-                colorFrom: b91111
+                colorFrom: c67fff
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -171,7 +166,7 @@ weapons: [
                 sizeTo: 15
                 strokeFrom: 0
                 strokeTo: 5
-                colorFrom: b91111
+                colorFrom: c67fff
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -184,7 +179,7 @@ weapons: [
                 sizeTo: 120
                 strokeFrom: 0
                 strokeTo: 9
-                colorFrom: b91111
+                colorFrom: c67fff
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -197,7 +192,7 @@ weapons: [
                 sizeTo: 230
                 strokeFrom: 0
                 strokeTo: 6
-                colorFrom: b91111
+                colorFrom: c67fff
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -212,7 +207,7 @@ weapons: [
                 lifetime: 300
                 sizeFrom: 2.5
                 sizeTo: 0
-                colorFrom: b91111
+                colorFrom: c67fff
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -228,7 +223,7 @@ weapons: [
                 lifetime: 300
                 sizeFrom: 5
                 sizeTo: 0
-                colorFrom: b91111
+                colorFrom: c67fff
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -244,7 +239,7 @@ weapons: [
                 lifetime: 300
                 sizeFrom: 9
                 sizeTo: 0
-                colorFrom: b91111
+                colorFrom: c67fff
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -262,7 +257,7 @@ weapons: [
                 lifetime: 15
                 sizeFrom: 3
                 sizeTo: 0
-                colorFrom: b91111
+                colorFrom: c67fff
                 colorTo: ffffff
                 strokeFrom: 2
                 strokeTo: 0.4 
@@ -330,7 +325,6 @@ weapons: [
 {
     name: repair-beam-weapon-center-large
     type: RepairBeamWeapon
-    // layerOffset: 0.0001
     rotationLimit: 360
     shootY: 6
     x: 4
@@ -397,9 +391,11 @@ weapons: [
         hitEffect: blastExplosion
 
         frontColor: ffffff
-        trailColor: b91111
-        trailInterval: 15
-        backColor: b91111
+	engineColor: c67fff
+	trailColor: c67fff
+	engineLayer: 110
+	trailWidth: 1.5
+	trailLength: 5
         }
     }
 
@@ -452,7 +448,7 @@ weapons: [
         smokeEffect: none
         largeHit: false
 
-        colors: [ b91111, ffffff ]
+        colors: [ c67fff, ffffff ]
         }
     }
  {
