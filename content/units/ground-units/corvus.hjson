@@ -4,7 +4,7 @@ legSplashRange: 25
 fogRadius: 150
 
 itemCapacity: 940
-health: 8000
+health: 10000
 rotateSpeed: 1.7
 speed: 0.75
 armor: 15
@@ -44,9 +44,9 @@ abilities: [
         }
    {
     type: ShieldArcAbility
-    radius: 30
+    radius: 0
     angle: 360
-    width: 32
+    width: 30
     y: 0
 
     cooldown: 6
@@ -69,7 +69,7 @@ weapons: [
 	shootY: 5
     shake: 14
     x: 0
-    y: -3
+    y: -3.5
 
     reload: 1200
     recoil: 0
@@ -346,7 +346,7 @@ weapons: [
     mirror: false
     shootY: 9
     x: 0
-    y: -11
+    y: -12.5
 
     velocityRnd: 0.2
     inaccuracy: 2
@@ -412,8 +412,8 @@ weapons: [
     rotate: true
     shadow: 20
     shootY: 7
-    x: 18.5
-    y: -6
+    x: 20.5
+    y: -5
 
     cooldownTime: 170
     rotateSpeed: 4
