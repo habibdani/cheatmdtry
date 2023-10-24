@@ -13,7 +13,7 @@ abilities: [
 {
         "type": EnergyFieldAbility,
         "color": c67fff,
-        "damage": 10000,
+        "damage": 15000,
         "rotateSpeed": 30,
         "reload": 1,
         "sectors": 1,
@@ -55,7 +55,7 @@ abilities: [
     }
 {
     type: RegenAbility
-    amount: 300
+    amount: 500
     percentAmount: 100
     }
 ]
