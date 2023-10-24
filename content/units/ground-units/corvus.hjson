@@ -4,16 +4,16 @@ legSplashRange: 25
 fogRadius: 150
 
 itemCapacity: 940
-health: 10000
+health: 30000
 rotateSpeed: 1.7
 speed: 0.75
-armor: 15
+armor: 300
 
 abilities: [
 {
         "type": EnergyFieldAbility,
         "color": c67fff,
-        "damage": 100,
+        "damage": 10000,
         "rotateSpeed": 30,
         "reload": 1,
         "sectors": 1,
@@ -108,7 +108,7 @@ weapons: [
 	collidesTeam: true
 	largeHit: true
 	sideLength: 0
-	sideAngle: 15
+	sideAngle: 10
 	sideWidth: 0
         length: 5000
         width: 50
@@ -120,11 +120,11 @@ weapons: [
 	lightningLengthRand: 25
 	lightningAngleRand: 50
         lightningSpacing: 35
-	lightningDamage: 50
-	lightningDelay: 1.1
+	lightningDamage: 1000
+	lightningDelay: 2
         lightningLength: 5
 
-	colors: [ c67fff, ffffff ]
+	colors: [ c67fff, f69fff ]
 	lightningColor: c67fff
 	lightColor: c67fff
 
@@ -147,7 +147,7 @@ weapons: [
             {
                 type: WaveEffect
                 startDelay: 120
-                lifetime: 240
+                lifetime: 24
                 sizeFrom: 0
                 sizeTo: 15
                 strokeFrom: 0
@@ -203,7 +203,7 @@ weapons: [
                 length: -60
                 cone: 360
                 particles: 15
-                lifetime: 300
+                lifetime: 30
                 sizeFrom: 2.5
                 sizeTo: 0
                 colorFrom: c67fff
@@ -219,7 +219,7 @@ weapons: [
                 length: -50
                 cone: 360
                 particles: 5
-                lifetime: 300
+                lifetime: 30
                 sizeFrom: 5
                 sizeTo: 0
                 colorFrom: c67fff
@@ -235,7 +235,7 @@ weapons: [
                 length: -20
                 cone: 360
                 particles: 3
-                lifetime: 300
+                lifetime: 30
                 sizeFrom: 9
                 sizeTo: 0
                 colorFrom: c67fff
@@ -296,7 +296,7 @@ weapons: [
         fragLifeMin: 0
         pierceCap: 10
         lifetime: 25
-        damage: 100
+        damage: 2000
         speed: 19
 
         hitEffect: blastExplosion
@@ -384,7 +384,7 @@ weapons: [
         lifetime: 450
         weaveMag: 2
         speed: 3.75
-        damage: 90
+        damage: 100
 
         despawnEffect: blastExplosion
         hitEffect: blastExplosion
@@ -433,11 +433,11 @@ weapons: [
         width: 3
 
         lifetime: 155
-        damage: 50
+        damage: 700
         shake: 1
 
         incendChance: 0.03
-        healPercent: 5
+        healPercent: 10
         incendSpread: 5
         incendAmount: 1
 
@@ -461,7 +461,7 @@ weapons: [
     x: 5
     y: -11
 
-    reload: 40
+    reload: 50
 
     shootSound: missileSmall
 
