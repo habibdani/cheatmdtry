@@ -56,8 +56,7 @@ abilities: [
     }
 {
     type: RegenAbility
-    amount: 500
-    percentAmount: 50
+    percentAmount: 10
     }
 ]
 
@@ -327,10 +326,10 @@ weapons: [
     type: RepairBeamWeapon
     rotationLimit: 360
     shootY: 6
-    x: 4
-    y: -6.5
+    x: 6
+    y: 8
 
-    repairSpeed: 1400
+    repairSpeed: 100
     beamWidth: 1
 
     bullet: {
@@ -360,7 +359,7 @@ weapons: [
         shotDelay: 8
         barrels: 3
         spread: 4
-        shots: 12
+        shots: 8
     }
 
     shootSound: missile
@@ -404,8 +403,8 @@ weapons: [
     targetSwitchInterval: 35
     controllable: false
     targetInterval: 20
-    rotationLimit: 180
-    baseRotation: -45
+    rotationLimit: 360
+    baseRotation: 0
     autoTarget: true
     continuous: true
     alternate: false
@@ -460,8 +459,8 @@ weapons: [
     rotateSpeed: 2
     rotate: true
     recoil: 1
-    x: 13
-    y: -10
+    x: 8
+    y: -11
 
     reload: 30
 
