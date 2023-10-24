@@ -16,9 +16,4 @@ Features:
 - Adjustable Overdrive Projector (speedup, or slow down)
 - Invincible Core and Invincible build plane
 - Cheat Items (power source, liquid source, item source with 36x faster)
-- Invincible Wall, Invincible Force Projector
-- Several strange force projectors
-- Chronosphere Unloader and Pusher
-- Unit Factory
-- DPS Tester Unit
-- Team Changer
+
