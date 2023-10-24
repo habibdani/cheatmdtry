@@ -10,7 +10,7 @@ lowAltitude: true
 useUnitCap: false
 physics: false
 flying: true
-hitSize: 3
+hitSize: 3.5
 
 envEnabled: -1
 envDisabled: 0
