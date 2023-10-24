@@ -459,15 +459,15 @@ weapons: [
     name: quell-weapon
     layerOffset: 0.001
     rotationLimit: 115
-    baseRotation: -140
+    baseRotation: 0
     alternate: false
     rotateSpeed: 2
     rotate: true
     recoil: 1
     x: 13
-    y: -11
+    y: -10
 
-    reload: 20
+    reload: 30
 
     shootSound: missileSmall
 
