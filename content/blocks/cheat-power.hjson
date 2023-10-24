@@ -1,7 +1,7 @@
 // type: PowerSource
 health: 9999999
 category: power
-laserRange: 10
+laserRange: 15
 maxNodes: 1500
 requirements: []
 research: cheat-liquid
