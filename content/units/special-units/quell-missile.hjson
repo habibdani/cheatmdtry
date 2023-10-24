@@ -17,10 +17,10 @@ envDisabled: 0
 
 missileAccelTime: 20
 rotateSpeed: 4
-fogRadius: 5
-lifetime: 85
+fogRadius: 50
+lifetime: 300
 maxRange: 6
-health: 45
+health: 70
 speed: 4.3
 
 deathExplosionEffect: explosion
