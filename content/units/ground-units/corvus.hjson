@@ -12,12 +12,12 @@ armor: 11
 abilities: [
 {
         "type": EnergyFieldAbility,
-        "color": d06b53,
+        "color": c67fff,
         "damage": 100,
         "rotateSpeed": 30,
         "reload": 1,
         "sectors": 1,
-        "effectRadius": 3
+        "effectRadius": 30
     },
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
@@ -30,8 +30,8 @@ abilities: [
                 "effects": [{
                     "type": "ParticleEffect",
                     "particles": 1,
-                    "colorFrom": "ffa665",
-                    "colorTo": "d06b53",
+                    "colorFrom": "49008e",
+                    "colorTo": "c67fff",
                     "sizeFrom": 3,
                     "sizeTo": 1,
                     "length": 1,
@@ -45,9 +45,9 @@ abilities: [
    {
     type: ShieldArcAbility
     region: enhancement-units-corvus-shield
-    radius: 50
+    radius: 40
     angle: 360
-    width: 10
+    width: 8
     y: 0
 
     cooldown: 6
