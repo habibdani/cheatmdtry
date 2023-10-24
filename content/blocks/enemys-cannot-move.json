@@ -6,7 +6,7 @@
     "hasLiquids": false,
     "hasPower": false,
     "update": true,
-    "radius": 210,
+    "radius": 300,
     "requirements": [
     ],
     "category": "effect",
