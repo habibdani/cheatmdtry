@@ -55,7 +55,7 @@ abilities: [
     }
 {
     type: RegenAbility
-    amount: 200
+    amount: 300
     percentAmount: 100
     }
 ]
@@ -108,7 +108,7 @@ weapons: [
 	collidesTeam: true
 	largeHit: true
 	sideLength: 0
-	sideAngle: 10
+	sideAngle: 0
 	sideWidth: 0
         length: 5000
         width: 50
@@ -121,7 +121,7 @@ weapons: [
 	lightningAngleRand: 50
         lightningSpacing: 35
 	lightningDamage: 1000
-	lightningDelay: 2
+	lightningDelay: 1.05
         lightningLength: 5
 
 	colors: [ c67fff, f69fff ]
