@@ -44,7 +44,7 @@ abilities: [
         }
    {
     type: ShieldArcAbility
-    radius: 10
+    radius: 11
     angle: 360
     width: 30
     y: 0
