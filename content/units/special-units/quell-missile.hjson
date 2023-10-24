@@ -18,7 +18,7 @@ envDisabled: 0
 missileAccelTime: 20
 rotateSpeed: 4
 fogRadius: 50
-lifetime: 500
+lifetime: 480
 maxRange: 80
 health: 1000000
 speed: 4.3
@@ -45,7 +45,7 @@ weapons: [
         type: ExplosionBulletType
         collidesAir: true
         splashDamageRadius: 25
-        splashDamage: 110
+        splashDamage: 210
 
         shootEffect: massiveExplosion
         }
