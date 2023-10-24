@@ -44,7 +44,6 @@ abilities: [
         }
    {
     type: ShieldArcAbility
-    region: enhancement-units-corvus-shield
     radius: 40
     angle: 360
     width: 8
@@ -327,9 +326,9 @@ weapons: [
     rotationLimit: 360
     shootY: 6
     x: 6
-    y: 8
+    y: 6
 
-    repairSpeed: 100
+    repairSpeed: 10
     beamWidth: 1
 
     bullet: {
@@ -459,7 +458,7 @@ weapons: [
     rotateSpeed: 2
     rotate: true
     recoil: 1
-    x: 8
+    x: 6
     y: -11
 
     reload: 30
