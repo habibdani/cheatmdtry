@@ -1,6 +1,6 @@
 type: StorageBlock
 health: 20000,
-itemCapacity: 1000000000
+itemCapacity: 100000000
 hasItems: true
 size: 10
 requirements: [
