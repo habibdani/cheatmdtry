@@ -1,0 +1,105 @@
+forceMultiTarget: true
+trailLength: 12.5
+engineOffset: 7
+engineSize: 3.5
+fogRadius: 26
+
+itemCapacity: 165
+health: 780
+
+abilities: [
+    {
+    type: ForceFieldAbility 
+    cooldown: 480
+    radius: 70
+    regen: 0.3
+    sides: 4
+    max: 470
+    }
+]
+
+weapons: [
+{
+    name: beam-weapon
+    predictTarget: true
+    shootCone: 160
+    shake: 3.5
+    recoil: 4
+    shootY: 4
+    x: 6.5
+
+    reload: 55
+
+    shootSound: laser
+
+    bullet: {
+        type: LaserBulletType
+        collidesTeam: true
+        length: 135
+        recoil: 1
+        width: 25
+
+        healPercent: 25
+        damage: 90
+
+        colors: [ 84f491, 84f491, ffffff ]
+    }
+}
+
+{
+    name: hidden-pm-mount
+    controllable: false
+    layerOffset: -0.001
+    baseRotation: -115
+    autoTarget: true
+    alternate: false
+    shootCone: 360
+    rotate: false
+    shootY: 5.25
+    x: 7.5
+    y: -1.5
+
+    velocityRnd: 0.2
+    inaccuracy: 30
+    reload: 275
+    recoil: -3
+    shake: 1
+
+    shoot: { 
+    shotDelay: 6
+    shots: 2
+    }
+
+    shootSound: missile
+
+    bullet: {
+        type: MissileBulletType
+        keepVelocity: false
+        shrinkX: 0.25
+        shrinkY: 0.5
+        drag: -0.003
+        height: 9
+        width: 9
+
+        splashDamageRadius: 15
+        collidesTeam: true
+        homingPower: 0.65
+        splashDamage: 52
+        homingRange: 45
+        healPercent: 7
+        weaveScale: 4
+        lifetime: 80
+        weaveMag: 2
+        damage: 29
+        speed: 2
+
+        despawnEffect: blastExplosion
+        hitEffect: blastExplosion
+
+        frontColor: ffffff
+        trailColor: 62ae7f
+        trailInterval: 12
+        backColor: 62ae7f
+        }
+    }
+]
