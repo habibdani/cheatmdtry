@@ -5,9 +5,9 @@ fogRadius: 150
 
 itemCapacity: 940
 health: 8000
-rotateSpeed: 1.2
+rotateSpeed: 1.7
 speed: 0.75
-armor: 11
+armor: 15
 
 abilities: [
 {
@@ -44,9 +44,9 @@ abilities: [
         }
    {
     type: ShieldArcAbility
-    radius: 40
+    radius: 30
     angle: 360
-    width: 8
+    width: 32
     y: 0
 
     cooldown: 6
@@ -55,7 +55,8 @@ abilities: [
     }
 {
     type: RegenAbility
-    percentAmount: 10
+    amount: 200
+    percentAmount: 100
     }
 ]
 
@@ -68,7 +69,7 @@ weapons: [
 	shootY: 5
     shake: 14
     x: 0
-    y: 0
+    y: -3
 
     reload: 1200
     recoil: 0
@@ -382,7 +383,7 @@ weapons: [
         weaveScale: 5
         lifetime: 450
         weaveMag: 2
-        speed: 3.25
+        speed: 3.75
         damage: 90
 
         despawnEffect: blastExplosion
@@ -412,10 +413,10 @@ weapons: [
     shadow: 20
     shootY: 7
     x: 18.5
-    y: -7
+    y: -6
 
     cooldownTime: 170
-    rotateSpeed: 3.5
+    rotateSpeed: 4
     reload: 170
     recoil: 1
     shake: 3
@@ -454,13 +455,13 @@ weapons: [
     rotationLimit: 115
     baseRotation: 0
     alternate: false
-    rotateSpeed: 2
+    rotateSpeed: 3
     rotate: true
     recoil: 1
-    x: 6
+    x: 5
     y: -11
 
-    reload: 30
+    reload: 40
 
     shootSound: missileSmall
 
