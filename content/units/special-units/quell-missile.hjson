@@ -19,8 +19,8 @@ missileAccelTime: 20
 rotateSpeed: 4
 fogRadius: 50
 lifetime: 320
-maxRange: 6
-health: 3000
+maxRange: 8
+health: 1000000
 speed: 4.3
 
 deathExplosionEffect: explosion
@@ -30,7 +30,7 @@ engineColor: c67fff
 trailColor: c67fff
 engineLayer: 110
 trailWidth: 1.5
-trailLength: 5
+trailLength: 6
 
 weapons: [
     {
