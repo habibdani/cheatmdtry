@@ -34,7 +34,7 @@ abilities: [
                     "colorTo": "49008e",
                     "sizeFrom": 5,
                     "sizeTo": 1,
-                    "length": 3,
+                    "length": 2,
                     "lifetime": 80,
                     "lightOpacity": 0.2,
 		    "x": 0,
