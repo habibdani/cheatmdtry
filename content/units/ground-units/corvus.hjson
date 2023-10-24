@@ -32,13 +32,13 @@ abilities: [
                     "particles": 1,
                     "colorFrom": "49008e",
                     "colorTo": "c67fff",
-                    "sizeFrom": 3,
+                    "sizeFrom": 5,
                     "sizeTo": 1,
                     "length": 1,
-                    "lifetime": 30,
+                    "lifetime": 80,
                     "lightOpacity": 0.2,
 		    "x": 0,
-	    	    "y": 3,
+	    	    "y": 2
                 }]
             }
         }
