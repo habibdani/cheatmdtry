@@ -468,6 +468,7 @@ weapons: [
         type: BulletType
         spawnUnit: quell-missile
         keepVelocity: false
+	collidesAir: true
 
         speed: 0
 
