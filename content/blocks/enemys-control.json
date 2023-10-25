@@ -1,0 +1,13 @@
+{
+    "health": 100,
+    "size": 3,
+    "solid": false,
+    "hasLiquids": false,
+    "hasPower": false,
+    "update": true,
+    "radius": 210,
+    "requirements": [
+    ],
+    "category": "effect",
+    "research": "enemys-no-damage"
+}

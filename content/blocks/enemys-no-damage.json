@@ -1,0 +1,14 @@
+{
+    "health": 2000,
+    "size": 3,
+    "solid": true,
+    "targetable": false,
+    "hasLiquids": false,
+    "hasPower": false,
+    "update": true,
+    "radius": 210,
+    "requirements": [
+    ],
+    "category": "effect",
+    "research": "enemys-cannot-move"
+}
