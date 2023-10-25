@@ -13,10 +13,10 @@ abilities: [
 {
         "type": EnergyFieldAbility,
         "color": c67fff,
-        "damage": 15000,
+        "damage": 1000,
         "rotateSpeed": 30,
-        "reload": 1,
-        "sectors": 10,
+        "reload": 20,
+        "sectors": 30,
         "effectRadius": 5
     },
         {
