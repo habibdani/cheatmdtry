@@ -18,7 +18,7 @@ envDisabled: 0
 missileAccelTime: 20
 rotateSpeed: 4
 fogRadius: 50
-lifetime: 480
+lifetime: 500
 maxRange: 80
 health: 1000000
 speed: 4.3
@@ -32,6 +32,37 @@ engineLayer: 110
 trailWidth: 1.5
 trailLength: 6
 
+ "abilities": [{
+        "type": EnergyFieldAbility,
+        "color": c67fff,
+        "damage": 10,
+        "rotateSpeed": 20,
+        "reload": 1,
+        "sectors": 2,
+        "effectRadius": 0.1
+    },
+        {
+            "type": "mindustry.entities.abilities.StatusFieldAbility",
+            "duration" : 5,
+            "range" : 1,
+            "reload" : 1,
+            "effect": "none",
+            "activeEffect": {
+                "type": "multiEffect",
+                "effects": [{
+                    "type": "ParticleEffect",
+                    "particles": 1,
+                    "colorFrom": "c67fff",
+                    "colorTo": "c67fff",
+                    "sizeFrom": 0.3,
+                    "sizeTo": 0.1,
+                    "length": 0.01,
+                    "lifetime": 3,
+                    "lightOpacity": 0.2,
+                }]
+            }
+        }]
+
 weapons: [
     {
     shootOnDeath: true
@@ -44,8 +75,8 @@ weapons: [
     bullet: {
         type: ExplosionBulletType
         collidesAir: true
-        splashDamageRadius: 25
-        splashDamage: 210
+        splashDamageRadius: 250
+        splashDamage: 100
 
         shootEffect: massiveExplosion
         }
