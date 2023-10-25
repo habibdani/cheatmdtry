@@ -44,9 +44,9 @@ abilities: [
         }
    {
     type: ShieldArcAbility
-    radius: 12
+    radius: 11
     angle: 362
-    width: 30
+    width: 32
     y: 0
 
     cooldown: 6
@@ -114,14 +114,14 @@ weapons: [
         width: 50
 
 	healPercent: 10000
-        lifetime: 65
+        lifetime: 85
 	damage: 1350
 
 	lightningLengthRand: 25
 	lightningAngleRand: 50
         lightningSpacing: 35
-	lightningDamage: 1000
-	lightningDelay: 1
+	lightningDamage: 500
+	lightningDelay: 1.1
         lightningLength: 5
 
 	colors: [ c67fff, f69fff ]
@@ -134,7 +134,7 @@ weapons: [
             effects: [
             {
                 type: WaveEffect
-                lifetime: 300
+                lifetime: 30
                 sizeFrom: 70
                 sizeTo: 7
                 strokeFrom: 0
@@ -147,7 +147,7 @@ weapons: [
             {
                 type: WaveEffect
                 startDelay: 120
-                lifetime: 240
+                lifetime: 24
                 sizeFrom: 0
                 sizeTo: 15
                 strokeFrom: 0
