@@ -16,7 +16,7 @@ abilities: [
         "damage": 15000,
         "rotateSpeed": 30,
         "reload": 1,
-        "sectors": 1,
+        "sectors": 10,
         "effectRadius": 5
     },
         {
