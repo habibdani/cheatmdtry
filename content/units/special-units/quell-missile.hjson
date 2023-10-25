@@ -36,9 +36,9 @@ trailLength: 6
 {
         "type": EnergyFieldAbility,
         "color": c67fff,
-        "damage": 10,
+        "damage": 20,
         "rotateSpeed": 20,
-        "reload": 1,
+        "reload": 10,
         "sectors": 2,
         "effectRadius": 0.1
     },
