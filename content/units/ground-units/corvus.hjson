@@ -71,10 +71,10 @@ weapons: [
     x: 0
     y: -3.5
 
-    reload: 1200
+    reload: 2000
     recoil: 0
 
-    cooldownTime: 1200
+    cooldownTime: 2000
 
     shootStatusDuration: 540
     shootStatus: unmoving
@@ -114,8 +114,8 @@ weapons: [
         width: 50
 
 	healPercent: 10000
-        lifetime: 85
-	damage: 1350
+        lifetime: 120
+	damage: 1550
 
 	lightningLengthRand: 25
 	lightningAngleRand: 50
@@ -124,7 +124,7 @@ weapons: [
 	lightningDelay: 1.1
         lightningLength: 5
 
-	colors: [ c67fff, f69fff ]
+	colors: [550099,c67fff]
 	lightningColor: c67fff
 	lightColor: c67fff
 
@@ -326,8 +326,8 @@ weapons: [
     type: RepairBeamWeapon
     rotationLimit: 360
     shootY: 6
-    x: 12
-    y: 10
+    x: 16
+    y: 11
 
     repairSpeed: 10
     beamWidth: 1
