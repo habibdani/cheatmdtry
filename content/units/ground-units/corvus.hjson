@@ -326,8 +326,8 @@ weapons: [
     type: RepairBeamWeapon
     rotationLimit: 360
     shootY: 6
-    x: 16
-    y: 11
+    x: 14
+    y: 10
 
     repairSpeed: 10
     beamWidth: 1
