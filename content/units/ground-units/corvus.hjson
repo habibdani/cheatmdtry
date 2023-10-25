@@ -134,7 +134,7 @@ weapons: [
             effects: [
             {
                 type: WaveEffect
-                lifetime: 30
+                lifetime: 280
                 sizeFrom: 70
                 sizeTo: 7
                 strokeFrom: 0
@@ -188,7 +188,7 @@ weapons: [
                 startDelay: 310
                 lifetime: 30
                 sizeFrom: 0
-                sizeTo: 230
+                sizeTo: 150
                 strokeFrom: 0
                 strokeTo: 6
                 colorFrom: c67fff
