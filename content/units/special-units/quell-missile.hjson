@@ -76,7 +76,7 @@ weapons: [
     bullet: {
         type: ExplosionBulletType
         collidesAir: true
-        splashDamageRadius: 250
+        splashDamageRadius: 30
         splashDamage: 200
 
         shootEffect: massiveExplosion
