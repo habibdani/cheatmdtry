@@ -13,10 +13,10 @@ abilities: [
 {
         type: EnergyFieldAbility
         color: c67fff
-        damage: 2000
+        damage: 1000
         rotateSpeed: 30
-	range: 1000.0
-        reload: 2
+	range: 200.0
+        reload: 80
         sectors: 30
         effectRadius: 5
 	targetAir: true
