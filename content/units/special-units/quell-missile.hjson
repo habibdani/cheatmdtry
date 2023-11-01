@@ -40,33 +40,37 @@ trailLength: 6
         rotateSpeed: 20
         reload: 100
         sectors: 2
-	       range: 150.0
+	range: 150.0
         effectRadius: 5
        	targetAir: true
        	targetGround: true
     }
         {
-            "type": "mindustry.entities.abilities.StatusFieldAbility",
-            "duration" : 5,
-            "range" : 1,
-            "reload" : 1,
-            "effect": "none",
-            "activeEffect": {
-                "type": "multiEffect",
-                "effects": [{
-                    "type": "ParticleEffect",
-                    "particles": 1,
-                    "colorFrom": "c67fff",
-                    "colorTo": "c67fff",
-                    "sizeFrom": 0.3,
-                    "sizeTo": 0.1,
-                    "length": 0.01,
-                    "lifetime": 3,
-                    "lightOpacity": 1
+            type: mindustry.entities.abilities.StatusFieldAbility
+            duration : 5
+            range : 1
+            reload : 1
+            effect: none
+            activeEffect: {
+                type: multiEffect
+                effects: [{
+                    type: ParticleEffect
+                    particles: 1
+                    colorFrom: c67fff
+                    colorTo: c67fff
+                    sizeFrom: 0.3
+                    sizeTo: 0.1
+                    length: 0.01
+                    lifetime: 3
+                    lightOpacity: 1
                 }]
             }
         }
-
+{
+    type: RegenAbility
+    amount: 500
+    percentAmount: 100
+    }
 ]
 
 weapons: [
