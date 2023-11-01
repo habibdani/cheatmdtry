@@ -11,14 +11,17 @@ armor: 300
 
 abilities: [
 {
-        "type": EnergyFieldAbility,
-        "color": c67fff,
-        "damage": 2000,
-        "rotateSpeed": 30,
-        "reload": 2,
-        "sectors": 30,
-        "effectRadius": 5
-    },
+        type: EnergyFieldAbility
+        color: c67fff
+        damage: 2000
+        rotateSpeed: 30
+	range: 100.0
+        reload: 2
+        sectors: 30
+        effectRadius: 5
+	targetAir: true
+	targetGround: true
+    }
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
             "duration" : 5,
