@@ -34,14 +34,17 @@ trailLength: 6
 
  abilities: [
 {
-        "type": EnergyFieldAbility,
-        "color": c67fff,
-        "damage": 25,
-        "rotateSpeed": 20,
-        "reload": 90,
-        "sectors": 2,
-        "effectRadius": 0.1
-    },
+        type: EnergyFieldAbility
+        color: c67fff
+        damage: 50
+        rotateSpeed: 20
+        reload: 100
+        sectors: 2
+	       range: 150.0
+        effectRadius: 5
+       	targetAir: true
+       	targetGround: true
+    }
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
             "duration" : 5,
@@ -62,7 +65,9 @@ trailLength: 6
                     "lightOpacity": 1
                 }]
             }
-        }]
+        }
+
+]
 
 weapons: [
     {
