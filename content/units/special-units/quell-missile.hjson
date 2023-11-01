@@ -21,6 +21,7 @@ fogRadius: 50
 lifetime: 500
 maxRange: 80
 health: 1000000
+armor:1000
 speed: 4.3
 
 deathExplosionEffect: explosion
@@ -38,10 +39,10 @@ trailLength: 6
         color: c67fff
         damage: 50
         reload: 100
-        sectors: 2
-	range: 200.0
+	range: 300.0
        	targetAir: true
        	targetGround: true
+        effectRadius: 2
     }
         {
             type: mindustry.entities.abilities.StatusFieldAbility
