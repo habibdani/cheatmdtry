@@ -15,7 +15,7 @@ abilities: [
         color: c67fff
         damage: 2000
         rotateSpeed: 30
-	range: 100.0
+	range: 1000.0
         reload: 2
         sectors: 30
         effectRadius: 5
