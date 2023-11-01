@@ -42,29 +42,8 @@ trailLength: 6
 	range: 300.0
        	targetAir: true
        	targetGround: true
-        effectRadius: 2
     }
-        {
-            type: mindustry.entities.abilities.StatusFieldAbility
-            duration : 5
-            range : 1
-            reload : 1
-            effect: none
-            activeEffect: {
-                type: multiEffect
-                effects: [{
-                    type: ParticleEffect
-                    particles: 1
-                    colorFrom: c67fff
-                    colorTo: c67fff
-                    sizeFrom: 0.3
-                    sizeTo: 0.1
-                    length: 0.01
-                    lifetime: 3
-                    lightOpacity: 1
-                }]
-            }
-        }
+        
 {
     type: RegenAbility
     amount: 500
