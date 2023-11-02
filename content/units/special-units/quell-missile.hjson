@@ -36,13 +36,13 @@ trailLength: 6
  abilities: [
 {
         type: EnergyFieldAbility
-        color: 000000
+        color: c67fff
         damage: 35
-        reload: 15
-	range: 300.0
+        reload: 35
+	range: 400.0
        	targetAir: true
        	targetGround: true
-	maxTargets:3
+	maxTargets:1
 	rotateSpeed: 100
         sectors: 1
     }
