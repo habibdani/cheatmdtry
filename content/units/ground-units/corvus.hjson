@@ -363,7 +363,7 @@ weapons: [
         shotDelay: 8
         barrels: 3
         spread: 4
-        shots: 8
+        shots: 4
     }
 
     shootSound: missile
@@ -390,7 +390,8 @@ weapons: [
         speed: 3.75
         damage: 100
 
-
+	despawnEffect: blastExplosion
+        hitEffect: blastExplosion
 
         frontColor: ffffff
 	engineColor: c67fff
