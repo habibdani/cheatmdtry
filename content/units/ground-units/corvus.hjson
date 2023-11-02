@@ -16,8 +16,9 @@ abilities: [
         damage: 1000
         rotateSpeed: 30
 	range: 270.0
-        reload: 50
+        reload: 1
         sectors: 30
+	maxTargets:10
         effectRadius: 5
 	targetAir: true
 	targetGround: true
