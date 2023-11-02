@@ -36,7 +36,7 @@ trailLength: 6
  abilities: [
 {
         type: EnergyFieldAbility
-        color: c67fff
+        color: 000000
         damage: 35
         reload: 5
 	range: 300.0
