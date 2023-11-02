@@ -37,7 +37,7 @@ trailLength: 6
 {
         type: EnergyFieldAbility
         color: c67fff
-        damage: 20
+        damage: 35
         reload: 5
 	range: 300.0
        	targetAir: true
