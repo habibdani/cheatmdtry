@@ -18,7 +18,7 @@ abilities: [
 	range: 300.0
         reload: 1
         sectors: 30
-	maxTargets:10
+	maxTargets:5
         effectRadius: 5
 	targetAir: true
 	targetGround: true
