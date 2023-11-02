@@ -385,7 +385,7 @@ weapons: [
         healPercent: 100
         inaccuracy: 5
         weaveScale: 5
-        lifetime: 450
+        lifetime: 600
       	weaveMag: 2
         speed: 3.75
         damage: 100
