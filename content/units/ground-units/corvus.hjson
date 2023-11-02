@@ -15,7 +15,7 @@ abilities: [
         color: c67fff
         damage: 1000
         rotateSpeed: 30
-	range: 300.0
+	range: 450.0
         reload: 1
         sectors: 30
 	maxTargets:5
@@ -299,7 +299,7 @@ weapons: [
         fragBullets: 3
         fragLifeMin: 0
         pierceCap: 10
-        lifetime: 25
+        lifetime: 35
         damage: 2000
         speed: 19
 
@@ -385,7 +385,7 @@ weapons: [
         healPercent: 100
         inaccuracy: 5
         weaveScale: 5
-        lifetime: 600
+        lifetime: 6000
       	weaveMag: 2
         speed: 3.75
         damage: 100
@@ -437,7 +437,7 @@ weapons: [
         width: 2
 
         lifetime: 155
-        damage: 400
+        damage: 100
         shake: 1
 
         incendChance: 0.03
