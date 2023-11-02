@@ -43,6 +43,8 @@ trailLength: 6
        	targetAir: true
        	targetGround: true
 	maxTargets:10
+	rotateSpeed: 100
+        sectors: 1
     }
         
 {
