@@ -381,11 +381,11 @@ weapons: [
         collidesTeam: true
         splashDamage: 45
         homingPower: 0.9
-        homingRange: 250
+        homingRange: 500
         healPercent: 100
         inaccuracy: 5
         weaveScale: 5
-        lifetime: 6000
+        lifetime: 600
       	weaveMag: 2
         speed: 3.75
         damage: 100
