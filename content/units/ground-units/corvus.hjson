@@ -371,9 +371,7 @@ weapons: [
     bullet: {
         type: MissileBulletType
         keepVelocity: false
-        shrinkX: 0.3
-        shrinkY: 0.6
-        drag: -0.003
+        
         height: 15
         width: 15
 
@@ -386,7 +384,7 @@ weapons: [
         inaccuracy: 5
         weaveScale: 5
         lifetime: 450
-        weaveMag: 2
+      
         speed: 3.75
         damage: 100
 
