@@ -12,7 +12,7 @@ armor: 300
 abilities: [
 {
         type: EnergyFieldAbility
-        color: c67fff
+        color: 000000
         damage: 1000
         rotateSpeed: 30
 	range: 300.0
@@ -34,7 +34,7 @@ abilities: [
                 "effects": [{
                     "type": "ParticleEffect",
                     "particles": 1,
-                    "colorFrom": "c67fff",
+                    "colorFrom": "000000",
                     "colorTo": "49008e",
                     "sizeFrom": 5,
                     "sizeTo": 1,
@@ -128,9 +128,9 @@ weapons: [
 	lightningDelay: 1.1
         lightningLength: 5
 
-	colors: [550099,c67fff]
-	lightningColor: c67fff
-	lightColor: c67fff
+	colors: [550099,000000]
+	lightningColor: 000000
+	lightColor: 000000
 
         parentizeEffects: true
         chargeEffect: {
@@ -143,7 +143,7 @@ weapons: [
                 sizeTo: 7
                 strokeFrom: 0
                 strokeTo: 7
-                colorFrom: c67fff
+                colorFrom: 000000
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -156,7 +156,7 @@ weapons: [
                 sizeTo: 15
                 strokeFrom: 0
                 strokeTo: 7
-                colorFrom: c67fff
+                colorFrom: 000000
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -169,7 +169,7 @@ weapons: [
                 sizeTo: 15
                 strokeFrom: 0
                 strokeTo: 5
-                colorFrom: c67fff
+                colorFrom: 000000
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -182,7 +182,7 @@ weapons: [
                 sizeTo: 120
                 strokeFrom: 0
                 strokeTo: 9
-                colorFrom: c67fff
+                colorFrom: 000000
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -195,7 +195,7 @@ weapons: [
                 sizeTo: 150
                 strokeFrom: 0
                 strokeTo: 6
-                colorFrom: c67fff
+                colorFrom: 000000
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -210,7 +210,7 @@ weapons: [
                 lifetime: 300
                 sizeFrom: 2.5
                 sizeTo: 0
-                colorFrom: c67fff
+                colorFrom: 000000
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -226,7 +226,7 @@ weapons: [
                 lifetime: 300
                 sizeFrom: 5
                 sizeTo: 0
-                colorFrom: c67fff
+                colorFrom: 000000
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -242,7 +242,7 @@ weapons: [
                 lifetime: 300
                 sizeFrom: 9
                 sizeTo: 0
-                colorFrom: c67fff
+                colorFrom: 000000
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -260,7 +260,7 @@ weapons: [
                 lifetime: 15
                 sizeFrom: 3
                 sizeTo: 0
-                colorFrom: c67fff
+                colorFrom: 000000
                 colorTo: ffffff
                 strokeFrom: 2
                 strokeTo: 0.4 
@@ -393,8 +393,8 @@ weapons: [
 
 
         frontColor: ffffff
-	engineColor: c67fff
-	trailColor: c67fff
+	engineColor: 000000
+	trailColor: 000000
 	engineLayer: 110
 	trailWidth: 1.5
 	trailLength: 5
@@ -449,7 +449,7 @@ weapons: [
         smokeEffect: none
         largeHit: false
 
-        colors: [ c67fff, ffffff ]
+        colors: [ 000000, ffffff ]
         }
     }
  {
