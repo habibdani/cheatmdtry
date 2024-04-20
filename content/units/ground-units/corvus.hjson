@@ -83,7 +83,7 @@ weapons: [
     shootStatusDuration: 540
     shootStatus: unmoving
     shoot: {
-        firstShotDelay: 300
+        firstShotDelay: 5
         lifetime: 1
     }
 
