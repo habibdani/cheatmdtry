@@ -251,7 +251,7 @@ weapons: [
                 }
             {
                 type: ParticleEffect
-                startDelay: 290
+                startDelay: 4
                 baseLength: 120
                 line: true
                 length: -60
