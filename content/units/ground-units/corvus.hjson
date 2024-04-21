@@ -48,9 +48,9 @@ abilities: [
         }
    {
     type: ShieldArcAbility
-    radius: 11
+    radius: 0
     angle: 362
-    width: 320
+    width: 300
     y: 0
 
     cooldown: 6
