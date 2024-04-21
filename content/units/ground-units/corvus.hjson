@@ -50,7 +50,7 @@ abilities: [
     type: ShieldArcAbility
     radius: 11
     angle: 362
-    width: 32
+    width: 320
     y: 0
 
     cooldown: 6
@@ -138,7 +138,7 @@ weapons: [
             effects: [
             {
                 type: WaveEffect
-                lifetime: 280
+                lifetime: 4
                 sizeFrom: 70
                 sizeTo: 7
                 strokeFrom: 0
@@ -150,7 +150,7 @@ weapons: [
                 }
             {
                 type: WaveEffect
-                startDelay: 120
+                startDelay: 0
                 lifetime: 24
                 sizeFrom: 0
                 sizeTo: 15
@@ -163,7 +163,7 @@ weapons: [
                 }
             {
                 type: WaveEffect
-                startDelay: 290
+                startDelay: 5
                 lifetime: 15
                 sizeFrom: 150
                 sizeTo: 15
@@ -176,7 +176,7 @@ weapons: [
                 }
             {
                 type: WaveEffect
-                startDelay: 300
+                startDelay: 6
                 lifetime: 30
                 sizeFrom: 0
                 sizeTo: 120
@@ -189,7 +189,7 @@ weapons: [
                 }
             {
                 type: WaveEffect
-                startDelay: 310
+                startDelay: 6
                 lifetime: 30
                 sizeFrom: 0
                 sizeTo: 150
@@ -207,7 +207,7 @@ weapons: [
                 length: -60
                 cone: 360
                 particles: 15
-                lifetime: 300
+                lifetime: 3
                 sizeFrom: 2.5
                 sizeTo: 0
                 colorFrom: c67fff
@@ -223,7 +223,7 @@ weapons: [
                 length: -50
                 cone: 360
                 particles: 5
-                lifetime: 300
+                lifetime: 3
                 sizeFrom: 5
                 sizeTo: 0
                 colorFrom: c67fff
@@ -239,7 +239,7 @@ weapons: [
                 length: -20
                 cone: 360
                 particles: 3
-                lifetime: 300
+                lifetime: 3
                 sizeFrom: 9
                 sizeTo: 0
                 colorFrom: c67fff
@@ -299,7 +299,7 @@ weapons: [
         fragBullets: 3
         fragLifeMin: 0
         pierceCap: 10
-        lifetime: 35
+        lifetime: 50
         damage: 2000
         speed: 19
 
