@@ -1,1 +1,29 @@
+buildSpeed: 1.25
+mineSpeed: 9
+mineTier: 2
+speed: 5.25
 
+itemCapacity: 110
+health: 32000
+armor: 20000
+
+trailLength: 5.75
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 80
+
+abilities: [
+{
+    type: ShieldRegenFieldAbility
+    range: 0
+
+    reload: 75
+    amount: 15
+    max: 90
+}
+
+]
+
+weapons: [
+]
