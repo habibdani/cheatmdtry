@@ -64,6 +64,8 @@ abilities: [
     regen: 1300
     sides: 6
     max: 25000
+    category: effect
+    research: enemys-control
     }
 {
     type: RegenAbility
