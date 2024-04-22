@@ -48,9 +48,9 @@ abilities: [
         }
    {
     type: ShieldArcAbility
-    radius: 30
+    radius: 50
     angle: 362
-    width: 10
+    width: 7
     y: 0
 
     cooldown: 6
@@ -60,7 +60,7 @@ abilities: [
 {
     type: ForceFieldAbility 
     cooldown: 1
-    radius: 100
+    radius: 300
     regen: 1300
     sides: 6
     max: 25000
@@ -83,10 +83,10 @@ weapons: [
     x: 0
     y: -3.5
 
-    reload: 2000
+    reload: 4000
     recoil: 0
 
-    cooldownTime: 2000
+    cooldownTime: 4000
 
     shootStatusDuration: 540
     shootStatus: unmoving
