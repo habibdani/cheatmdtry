@@ -13,6 +13,10 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 80
 
+immunities: [ burning, melting, blasted, shocked ]
+
+targetFlags: [ turret, repair, extinguisher, hasFogRadius, unitAssembler, unitCargoUnloadPoint, launchPad, reactor, generator, battery, factory, storage, drill, core ]
+
 abilities: [
 {
     type: ShieldRegenFieldAbility
@@ -22,6 +26,18 @@ abilities: [
     amount: 15
     max: 90
 }
+{
+    type: EnergyFieldAbility
+    sameTypeHealMult: 15
+    statusDuration: 540
+    healPercent: 300
+    maxTargets: 32
+    damage: 180
+    reload: 9
+    range: 500
+    x: 0
+    y: 15
+    }
 {
         type: EnergyFieldAbility
         color: c67fff
@@ -611,4 +627,243 @@ shoot: {
         shootEffect: shootBig
         }
     }
+{
+    name: zenith-missiles
+
+    rotationLimit: 24
+    baseRotation: 225
+    rotateSpeed: 0.75
+    shootCone: 360
+    rotate: true
+    shake: 7
+    x: -6.5
+    y: -12
+
+    velocityRnd: 0.2
+    inaccuracy: 45
+    reload: 120
+    recoil: 1.5
+
+    shootSound: missile
+
+shoot: { 
+        shotDelay: 8
+        shots: 6
+    }
+
+bullet: {
+    type: MissileBulletType
+    collideTerrain: true
+    keepVelocity: false
+    collidesAir: false
+    despawnShake: 4
+    drag: -0.003
+    hitShake: 4
+    shrinkY: 0
+    height: 9
+    width: 9
+
+    splashDamageRadius: 19
+    fragRandomSpread: 360
+    splashDamage: 120
+    homingRange: 100
+    fragBullets: 3
+    fragLifeMin: 0
+    weaveScale: 6
+    lifetime: 400
+    weaveMag: 2
+    speed: 2.25
+    damage: 64
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    trailColor: ffa665
+    trailInterval: 8
+
+    lightColor: ffa665
+    lightOpacity: 0.7
+    lightRadius: 32
+
+fragBullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    pierceBuilding: true
+    collidesAir: false
+    despawnShake: 1.8
+    hitShake: 1.8
+    pierce: true
+    height: 3
+    width: 3
+
+    splashDamageRadius: 13
+    splashDamage: 21
+    pierceCap: 2
+    lifetime: 60
+    speed: 1.45
+    damage: 25
+
+    hitEffect: flakExplosion
+
+    trailInterval: 6.5
+    trailColor: ffa665
+
+    lightColor: ffa665
+    lightOpacity: 0.7
+    lightRadius: 17
+}
+    }
+}
+{
+    name: spiroct-weapon
+    controllable: false
+    rotationLimit: 45
+    autoTarget: true
+    rotate: true
+    x: 4
+    y: 6
+
+    reload: 9
+
+    shootSound: sap
+
+bullet: {
+    type: SapBulletType
+    collidesAir: false
+    knockback: -1
+    length: 120
+    width: 0.55
+
+    buildingDamageMultiplier: 0.88
+
+    sapStrength: 1
+    lifetime: 30
+    damage: 25
+
+    shootEffect: shootSmall
+    despawnEffect: none
+
+    hitColor: bf92f9
+    color: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 17
+}
+    }
+
+{
+    name: spiroct-weapon
+    controllable: false
+    rotationLimit: 60
+    autoTarget: true
+    rotate: true
+    x: 9
+    y: 4
+
+    reload: 14
+
+    shootSound: sap
+
+bullet: {
+    type: SapBulletType
+    collidesAir: false
+    knockback: -1
+    length: 100
+    width: 0.55
+
+    buildingDamageMultiplier: 0.71
+
+    sapStrength: 0.85
+    lifetime: 30
+    damage: 45
+
+    shootEffect: shootSmall
+    despawnEffect: none
+
+    hitColor: bf92f9
+    color: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 17
+}
+    }
+
+{
+    name: spiroct-weapon
+    controllable: false
+    rotationLimit: 80
+    autoTarget: true
+    rotate: true
+    x: 14
+    y: -2
+
+    reload: 22
+
+    shootSound: sap
+
+bullet: {
+    type: SapBulletType
+    collidesAir: false
+    knockback: -1
+    length: 80
+    width: 0.55
+
+    buildingDamageMultiplier: 0.39
+
+    sapStrength: 0.65
+    lifetime: 30
+    damage: 75
+
+    shootEffect: shootSmall
+    despawnEffect: none
+
+    hitColor: bf92f9
+    color: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 17
+}
+    }
+{
+    name: large-mpw
+    soundPitchMax: 0.45
+    layerOffset: -0.001
+    rotationLimit: 45
+    alternate: false
+    rotate: true
+    x: 2.5
+    y: 7.5
+
+    reload: 2.5
+
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    collidesAir: false
+    height: 14
+    width: 8
+
+    lifetime: 45
+    damage: 18
+    speed: 6
+
+    shootEffect: shootSmall
+
+    trailColor: bf92f9
+    trailLength: 3.2
+    trailWidth: 1.5
+
+    frontColor: bf92f9
+    backColor: 6d56bf
+    hitColor: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 21
+}
+    }
+
 ]
