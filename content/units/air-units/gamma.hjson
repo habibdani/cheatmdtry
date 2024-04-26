@@ -602,13 +602,13 @@ shoot: {
  {
     name: quell-weapon
     layerOffset: 0.001
-    rotationLimit: 90
+    rotationLimit: 180
     baseRotation: 0
     alternate: false
     rotateSpeed: 3
     rotate: true
     recoil: 1
-    x: 5
+    x: 13
     y: -11
 
     reload: 60
@@ -690,8 +690,8 @@ fragBullet: {
     collideTerrain: true
     pierceBuilding: true
     collidesAir: false
-    despawnShake: 1.8
-    hitShake: 1.8
+    despawnShake: 0.2
+    hitShake: 0.2
     pierce: true
     height: 3
     width: 3
@@ -699,7 +699,7 @@ fragBullet: {
     splashDamageRadius: 13
     splashDamage: 21
     pierceCap: 2
-    lifetime: 60
+    lifetime: 150
     speed: 1.45
     damage: 25
 
@@ -775,7 +775,7 @@ bullet: {
     buildingDamageMultiplier: 0.71
 
     sapStrength: 0.85
-    lifetime: 30
+    lifetime: 60
     damage: 45
 
     shootEffect: shootSmall
@@ -872,7 +872,7 @@ bullet: {
     rotate: true
     shadow: 8
     shootY: 7
-    shake: 12
+    shake: 0
     y: -7
     x: 9
 
@@ -898,9 +898,9 @@ bullet: {
     collidesTiles: true
     keepVelocity: false
     collidesAir: false
-    despawnShake: 15
+    despawnShake: 0
     knockback: 18
-    hitShake: 15
+    hitShake: 0
     shrinkX: 0.15
     shrinkY: 0.3
     recoil: 0.03
@@ -916,9 +916,9 @@ bullet: {
     statusDuration: 300
     ammoMultiplier: 6
     splashDamage: 64
-    homingPower: 0
+    homingPower: 40
     status: sapped
-    lifetime: 160
+    lifetime: 260
     lightning: 4
     damage: 32
     speed: 3.2
