@@ -865,5 +865,81 @@ bullet: {
     lightRadius: 21
 }
     }
+{
+    name: large-purple-mount
+    rotationLimit: 32
+    rotateSpeed: 0.45
+    rotate: true
+    shadow: 8
+    shootY: 7
+    shake: 12
+    y: -7
+    x: 9
+
+    velocityRnd: 0.25
+    inaccuracy: 2
+    recoil: 3.2
+    reload: 750
+
+    ejectEffect: casing1
+    
+    shootSound: missile
+
+    shootStatusDuration: 640
+    shootStatus: slow
+shoot: {
+    shotDelay: 12
+    shots: 32
+}
+
+bullet: {
+    type: MissileBulletType
+    hitEffect: sapExplosion
+    collidesTiles: true
+    keepVelocity: false
+    collidesAir: false
+    despawnShake: 15
+    knockback: 18
+    hitShake: 15
+    shrinkX: 0.15
+    shrinkY: 0.3
+    recoil: 0.03
+    drag: -0.003
+    height: 24
+    width: 18
+
+    buildingDamageMultiplier: 0.75
+
+    splashDamageRadius: 80
+    lightningDamage: 16
+    lightningLength: 12
+    statusDuration: 300
+    ammoMultiplier: 6
+    splashDamage: 64
+    homingPower: 0
+    status: sapped
+    lifetime: 160
+    lightning: 4
+    damage: 32
+    speed: 3.2
+
+    smokeEffect: shootBigSmoke2
+
+    trailColor: bf92f9
+    trailInterval: 15
+    trailLength: 7.5
+    trailWidth: 2.5
+
+    lightningColor: bf92f9
+    frontColor: bf92f9
+    backColor: 6d56bf
+
+    lightningColor: ffffff
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 90
+}
+    }
+
 
 ]
