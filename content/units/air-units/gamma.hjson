@@ -37,7 +37,7 @@ abilities: [
 {
     type: EnergyFieldAbility
     color: ff9c5a
-    layerOffset: 0.0001
+    layerOffset: 0.007
     sameTypeHealMult: 15
     statusDuration: 540
     healPercent: 3000
@@ -50,7 +50,7 @@ abilities: [
     }
 {
         type: EnergyFieldAbility
-        layerOffset: 0.0001
+    	layerOffset: 0.007
         color: 00b8ff
         damage: 180
         rotateSpeed: 30
@@ -323,7 +323,7 @@ weapons: [
     }
 {
     name: toxopid-cannon
-    layerOffset: 0.001
+    layerOffset: 0.009
     rotationLimit: 25
     rotateSpeed: 0.1
     mirror: false
