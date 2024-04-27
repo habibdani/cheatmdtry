@@ -616,7 +616,7 @@ shoot: {
  {
     name: quell-weapon
     layerOffset: 0.001
-    rotationLimit: 0
+    rotationLimit: 360
     baseRotation: -20
     alternate: false
     rotateSpeed: 3
@@ -894,8 +894,6 @@ bullet: {
     inaccuracy: 2
     recoil: 0
     reload: 750
-
-    ejectEffect: casing1
     
     shootSound: missile
 
