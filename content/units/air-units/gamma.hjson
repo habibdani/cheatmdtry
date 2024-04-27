@@ -37,7 +37,7 @@ abilities: [
 {
     type: EnergyFieldAbility
     color: ff9c5a
-    layerOffset: 0.007
+    layerOffset: -0.007
     sameTypeHealMult: 15
     statusDuration: 540
     healPercent: 3000
@@ -50,7 +50,7 @@ abilities: [
     }
 {
         type: EnergyFieldAbility
-    	layerOffset: 0.007
+    	layerOffset: -0.007
         color: 00b8ff
         damage: 180
         rotateSpeed: 30
@@ -616,8 +616,8 @@ shoot: {
  {
     name: quell-weapon
     layerOffset: 0.001
-    rotationLimit: 180
-    baseRotation: 20
+    rotationLimit: 0
+    baseRotation: -20
     alternate: false
     rotateSpeed: 3
     rotate: true
@@ -743,7 +743,7 @@ fragBullet: {
 
 bullet: {
     type: SapBulletType
-    collidesAir: false
+    collidesAir: true
     knockback: -1
     length: 120
     width: 0.55
@@ -751,7 +751,7 @@ bullet: {
     buildingDamageMultiplier: 0.88
 
     sapStrength: 1
-    lifetime: 30
+    lifetime: 100
     damage: 25
 
     shootEffect: shootSmall
@@ -781,7 +781,7 @@ bullet: {
 
 bullet: {
     type: SapBulletType
-    collidesAir: false
+    collidesAir: true
     knockback: -1
     length: 100
     width: 0.55
@@ -789,7 +789,7 @@ bullet: {
     buildingDamageMultiplier: 0.71
 
     sapStrength: 0.85
-    lifetime: 60
+    lifetime: 100
     damage: 45
 
     shootEffect: shootSmall
@@ -819,7 +819,7 @@ bullet: {
 
 bullet: {
     type: SapBulletType
-    collidesAir: false
+    collidesAir: true
     knockback: -1
     length: 80
     width: 0.55
@@ -827,7 +827,7 @@ bullet: {
     buildingDamageMultiplier: 0.39
 
     sapStrength: 0.65
-    lifetime: 30
+    lifetime: 100
     damage: 75
 
     shootEffect: shootSmall
@@ -1005,8 +1005,8 @@ name: large-laser-mount
     
     predictTarget: true
     layerOffset: -0.0002
-    rotationLimit: 30
-    baseRotation: 0
+    rotationLimit: 15
+    baseRotation: 10
     rotateSpeed: 1.8
     inaccuracy: 0
     rotate: true
