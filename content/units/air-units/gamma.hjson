@@ -37,6 +37,7 @@ abilities: [
 {
     type: EnergyFieldAbility
     color: ff9c5a
+    layerOffset: 0.0001
     sameTypeHealMult: 15
     statusDuration: 540
     healPercent: 3000
@@ -49,6 +50,7 @@ abilities: [
     }
 {
         type: EnergyFieldAbility
+        layerOffset: 0.0001
         color: 00b8ff
         damage: 180
         rotateSpeed: 30
@@ -890,7 +892,7 @@ bullet: {
 
     velocityRnd: 0.25
     inaccuracy: 2
-    recoil: 3.2
+    recoil: 0
     reload: 750
 
     ejectEffect: casing1
@@ -928,7 +930,7 @@ bullet: {
     statusDuration: 300
     ammoMultiplier: 6
     splashDamage: 64
-    homingPower: 40
+    homingPower: 80
     status: sapped
     lifetime: 260
     lightning: 4
