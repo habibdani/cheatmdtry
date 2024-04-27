@@ -36,23 +36,26 @@ abilities: [
     }
 {
     type: EnergyFieldAbility
+    color: ff9c5a
     sameTypeHealMult: 15
     statusDuration: 540
-    healPercent: 300
+    healPercent: 3000
     maxTargets: 32
     damage: 180
     reload: 9
     range: 500
-    x: 0
-    y: 15
+    targetAir: true
+    targetGround: true
     }
 {
         type: EnergyFieldAbility
         color: 00b8ff
-        damage: 500
+        damage: 180
         rotateSpeed: 30
+        sameTypeHealMult: 15
 	range: 450.0
-        reload: 1
+        reload: 9
+        healPercent: 3000
         sectors: 30
 	maxTargets:5
         effectRadius: 5
@@ -318,6 +321,7 @@ weapons: [
     }
 {
     name: toxopid-cannon
+    layerOffset: 0.001
     rotationLimit: 25
     rotateSpeed: 0.1
     mirror: false
@@ -611,12 +615,12 @@ shoot: {
     name: quell-weapon
     layerOffset: 0.001
     rotationLimit: 180
-    baseRotation: 0
+    baseRotation: 20
     alternate: false
     rotateSpeed: 3
     rotate: true
     recoil: 1
-    x: 13
+    x: 15
     y: -11
 
     reload: 60
@@ -907,7 +911,7 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     despawnShake: 0
-    knockback: 18
+    knockback: 0
     hitShake: 0
     shrinkX: 0.15
     shrinkY: 0.3
@@ -958,7 +962,7 @@ name: air-def-mount
     mirror: false
     shadow: 9
     x: 0
-    y: -7
+    y: -10
 
     reload: 2
 
@@ -980,8 +984,8 @@ name: air-def-mount
     rotationLimit: 360
     baseRotation: -45
     shadow: 9
-    x: 6
-    y: -27
+    x: 9
+    y: -20
 
     reload: 3
 
@@ -998,6 +1002,7 @@ bullet: {
 name: large-laser-mount
     
     predictTarget: true
+    layerOffset: -0.0002
     rotationLimit: 180
     baseRotation: 0
     rotateSpeed: 1.8
