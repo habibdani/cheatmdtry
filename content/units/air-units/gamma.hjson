@@ -20,12 +20,20 @@ targetFlags: [ turret, repair, extinguisher, hasFogRadius, unitAssembler, unitCa
 abilities: [
 {
     type: ShieldRegenFieldAbility
-    range: 0
+    range: 500
 
-    reload: 75
-    amount: 15
-    max: 90
-}
+    reload: 100
+    amount: 2500
+    max: 2100
+    }
+{
+    type: ShieldRegenFieldAbility
+    range: 4000
+
+    reload: 200
+    amount: 1300
+    max: 520
+    }
 {
     type: EnergyFieldAbility
     sameTypeHealMult: 15
@@ -40,8 +48,8 @@ abilities: [
     }
 {
         type: EnergyFieldAbility
-        color: c67fff
-        damage: 1000
+        color: 00b8ff
+        damage: 500
         rotateSpeed: 30
 	range: 450.0
         reload: 1
@@ -62,7 +70,7 @@ abilities: [
                 "effects": [{
                     "type": "ParticleEffect",
                     "particles": 1,
-                    "colorFrom": "c67fff",
+                    "colorFrom": "00b8ff",
                     "colorTo": "49008e",
                     "sizeFrom": 5,
                     "sizeTo": 1,
@@ -88,7 +96,7 @@ abilities: [
 {
     type: ForceFieldAbility 
     cooldown: 1
-    radius: 300
+    radius: 30
     regen: 1300
     sides: 6
     max: 25000
@@ -165,9 +173,9 @@ weapons: [
 	lightningDelay: 1.1
         lightningLength: 5
 
-	colors: [550099,c67fff]
-	lightningColor: c67fff
-	lightColor: c67fff
+	colors: [550099,00b8ff]
+	lightningColor: 00b8ff
+	lightColor: 00b8ff
 
         parentizeEffects: true
         chargeEffect: {
@@ -180,7 +188,7 @@ weapons: [
                 sizeTo: 7
                 strokeFrom: 0
                 strokeTo: 7
-                colorFrom: c67fff
+                colorFrom: 00b8ff
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -193,7 +201,7 @@ weapons: [
                 sizeTo: 15
                 strokeFrom: 0
                 strokeTo: 7
-                colorFrom: c67fff
+                colorFrom: 00b8ff
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -206,7 +214,7 @@ weapons: [
                 sizeTo: 15
                 strokeFrom: 0
                 strokeTo: 5
-                colorFrom: c67fff
+                colorFrom: 00b8ff
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -219,7 +227,7 @@ weapons: [
                 sizeTo: 120
                 strokeFrom: 0
                 strokeTo: 9
-                colorFrom: c67fff
+                colorFrom: 00b8ff
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -232,7 +240,7 @@ weapons: [
                 sizeTo: 150
                 strokeFrom: 0
                 strokeTo: 6
-                colorFrom: c67fff
+                colorFrom: 00b8ff
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -247,7 +255,7 @@ weapons: [
                 lifetime: 3
                 sizeFrom: 2.5
                 sizeTo: 0
-                colorFrom: c67fff
+                colorFrom: 00b8ff
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -263,7 +271,7 @@ weapons: [
                 lifetime: 3
                 sizeFrom: 5
                 sizeTo: 0
-                colorFrom: c67fff
+                colorFrom: 00b8ff
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -279,7 +287,7 @@ weapons: [
                 lifetime: 3
                 sizeFrom: 9
                 sizeTo: 0
-                colorFrom: c67fff
+                colorFrom: 00b8ff
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -297,7 +305,7 @@ weapons: [
                 lifetime: 15
                 sizeFrom: 3
                 sizeTo: 0
-                colorFrom: c67fff
+                colorFrom: 00b8ff
                 colorTo: ffffff
                 strokeFrom: 2
                 strokeTo: 0.4 
@@ -340,9 +348,9 @@ shoot: {
         collidesTiles: true
         collidesAir: false
         despawnShake: 17
-        knockback: 0.8
+        knockback: 0
         collides: true
-        hitShake: 17
+        hitShake: 1
         height: 32
         width: 32
 
@@ -367,10 +375,10 @@ shoot: {
         smokeEffect: shootBigSmoke2
         hitEffect: sapExplosion
 
-        frontColor: bf92f9
+        frontColor: ff9c5a
         backColor: 6d56bf
 
-        lightningColor: bf92f9
+        lightningColor: ff9c5a
         lightColor: 665c9f
         lightOpacity: 0.7
         lightRadius: 160
@@ -407,10 +415,10 @@ shoot: {
             smokeEffect: shootBigSmoke2
             hitEffect: sapExplosion
 
-            frontColor: bf92f9
+            frontColor: ff9c5a
             backColor: 6d56bf
 
-            lightningColor: bf92f9
+            lightningColor: ff9c5a
             lightColor: 665c9f
             lightOpacity: 0.7
             lightRadius: 90
@@ -540,8 +548,8 @@ shoot: {
         hitEffect: blastExplosion
 
         frontColor: ffffff
-	engineColor: c67fff
-	trailColor: c67fff
+	engineColor: 00b8ff
+	trailColor: 00b8ff
 	engineLayer: 110
 	trailWidth: 1.5
 	trailLength: 5
@@ -596,7 +604,7 @@ shoot: {
         smokeEffect: none
         largeHit: false
 
-        colors: [ c67fff, ffffff ]
+        colors: [ 00b8ff, ffffff ]
         }
     }
  {
@@ -743,10 +751,10 @@ bullet: {
     shootEffect: shootSmall
     despawnEffect: none
 
-    hitColor: bf92f9
-    color: bf92f9
+    hitColor: ff9c5a
+    color: ff9c5a
 
-    lightColor: bf92f9
+    lightColor: ff9c5a
     lightOpacity: 0.7
     lightRadius: 17
 }
@@ -781,10 +789,10 @@ bullet: {
     shootEffect: shootSmall
     despawnEffect: none
 
-    hitColor: bf92f9
-    color: bf92f9
+    hitColor: ff9c5a
+    color: ff9c5a
 
-    lightColor: bf92f9
+    lightColor: ff9c5a
     lightOpacity: 0.7
     lightRadius: 17
 }
@@ -819,10 +827,10 @@ bullet: {
     shootEffect: shootSmall
     despawnEffect: none
 
-    hitColor: bf92f9
-    color: bf92f9
+    hitColor: ff9c5a
+    color: ff9c5a
 
-    lightColor: bf92f9
+    lightColor: ff9c5a
     lightOpacity: 0.7
     lightRadius: 17
 }
@@ -852,15 +860,15 @@ bullet: {
 
     shootEffect: shootSmall
 
-    trailColor: bf92f9
+    trailColor: ff9c5a
     trailLength: 3.2
     trailWidth: 1.5
 
-    frontColor: bf92f9
+    frontColor: ff9c5a
     backColor: 6d56bf
-    hitColor: bf92f9
+    hitColor: ff9c5a
 
-    lightColor: bf92f9
+    lightColor: ff9c5a
     lightOpacity: 0.7
     lightRadius: 21
 }
@@ -925,21 +933,108 @@ bullet: {
 
     smokeEffect: shootBigSmoke2
 
-    trailColor: bf92f9
+    trailColor: ff9c5a
     trailInterval: 15
     trailLength: 7.5
     trailWidth: 2.5
 
-    lightningColor: bf92f9
-    frontColor: bf92f9
+    lightningColor: ff9c5a
+    frontColor: ff9c5a
     backColor: 6d56bf
 
     lightningColor: ffffff
-    lightColor: bf92f9
+    lightColor: ff9c5a
     lightOpacity: 0.7
     lightRadius: 90
 }
     }
+{
+name: air-def-mount
+    
+    type: PointDefenseWeapon
+    targetSwitchInterval: 15
+    targetInterval: 10
+    rotationLimit: 360
+    mirror: false
+    shadow: 9
+    x: 0
+    y: -7
 
+    reload: 2
+
+bullet: {
+    maxRange: 1300
+
+    damage: 23.5
+
+    shootEffect: sparkShoot
+    hitEffect: pointHit
+}
+    }
+{
+name: air-def-mount
+    
+    type: PointDefenseWeapon
+    targetSwitchInterval: 15
+    targetInterval: 10
+    rotationLimit: 360
+    baseRotation: -45
+    shadow: 9
+    x: 6
+    y: -27
+
+    reload: 3
+
+bullet: {
+    maxRange: 1700
+
+    damage: 31.5
+
+    shootEffect: sparkShoot
+    hitEffect: pointHit
+}
+    }
+{
+name: large-laser-mount
+    
+    predictTarget: true
+    rotationLimit: 180
+    baseRotation: 0
+    rotateSpeed: 1.8
+    inaccuracy: 0
+    rotate: true
+    shadow: 20
+    shootY: 9
+    recoil: 4
+    shake: 0
+    x: 15
+    y: 2
+
+    reload: 100
+
+    shootSound: laser
+
+shoot: {
+    shotDelay: 15
+    shots: 5
+}
+
+bullet: {
+    type: LaserBulletType
+    sideLength: 180
+    sideWidth: 1.5
+    sideAngle: 20
+    length: 1000
+    width: 27.5
+
+    buildingDamageMultiplier: 1.25
+
+    damage: 132
+    
+    shootEffect: shockwave
+
+    colors: [ ec7458aa, ff9c5a, ffffff ]
+}
+    }
 
 ]
