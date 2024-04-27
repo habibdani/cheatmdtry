@@ -380,7 +380,7 @@ shoot: {
         hitEffect: sapExplosion
 
         frontColor: ff9c5a
-        backColor: 6d56bf
+        backColor: 00b8ff
 
         lightningColor: ff9c5a
         lightColor: 665c9f
@@ -420,7 +420,7 @@ shoot: {
             hitEffect: sapExplosion
 
             frontColor: ff9c5a
-            backColor: 6d56bf
+            backColor: 00b8ff
 
             lightningColor: ff9c5a
             lightColor: 665c9f
@@ -869,7 +869,7 @@ bullet: {
     trailWidth: 1.5
 
     frontColor: ff9c5a
-    backColor: 6d56bf
+    backColor: 00b8ff
     hitColor: ff9c5a
 
     lightColor: ff9c5a
@@ -916,7 +916,7 @@ bullet: {
     shrinkX: 0.15
     shrinkY: 0.3
     recoil: 0.03
-    drag: -0.003
+    drag: 0
     height: 24
     width: 18
 
@@ -944,7 +944,7 @@ bullet: {
 
     lightningColor: ff9c5a
     frontColor: ff9c5a
-    backColor: 6d56bf
+    backColor: 00b8ff
 
     lightningColor: ffffff
     lightColor: ff9c5a
@@ -1003,7 +1003,7 @@ name: large-laser-mount
     
     predictTarget: true
     layerOffset: -0.0002
-    rotationLimit: 180
+    rotationLimit: 30
     baseRotation: 0
     rotateSpeed: 1.8
     inaccuracy: 0
