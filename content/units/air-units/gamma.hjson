@@ -967,9 +967,33 @@ name: air-def-mount
     reload: 2
 
 bullet: {
-    maxRange: 1300
+    maxRange: 13000
 
     damage: 23.5
+
+    shootEffect: sparkShoot
+    hitEffect: pointHit
+}
+    }
+{
+name: air-def-mount
+    
+    type: PointDefenseWeapon
+    targetSwitchInterval: 15
+    layerOffset: 0.002
+    targetInterval: 5
+    rotationLimit: 360
+    mirror: false
+    shadow: 9
+    x: 7
+    y: 10
+
+    reload: 2
+
+bullet: {
+    maxRange: 17000
+
+    damage: 300
 
     shootEffect: sparkShoot
     hitEffect: pointHit
@@ -990,9 +1014,33 @@ name: air-def-mount
     reload: 3
 
 bullet: {
-    maxRange: 1700
+    maxRange: 17000
 
     damage: 31.5
+
+    shootEffect: sparkShoot
+    hitEffect: pointHit
+}
+    }
+{
+name: air-def-mount
+    
+    type: PointDefenseWeapon
+    targetSwitchInterval: 15
+    layerOffset: 0.002
+    targetInterval: 4
+    rotationLimit: 360
+    baseRotation: -45
+    shadow: 9
+    x: 10
+    y: -15
+
+    reload: 3
+
+bullet: {
+    maxRange: 17000
+
+    damage: 300
 
     shootEffect: sparkShoot
     hitEffect: pointHit
@@ -1028,7 +1076,7 @@ bullet: {
     type: LaserBulletType
     sideLength: 180
     sideWidth: 1.5
-    sideAngle: 20
+    sideAngle: 15
     length: 1000
     width: 27.5
 
