@@ -964,7 +964,7 @@ name: air-def-mount
     x: 0
     y: -10
 
-    reload: 2
+    reload: 1
 
 bullet: {
     maxRange: 13000
@@ -979,16 +979,16 @@ bullet: {
 name: air-def-mount
     
     type: PointDefenseWeapon
-    targetSwitchInterval: 15
+    targetSwitchInterval: 2
     layerOffset: 0.002
-    targetInterval: 5
+    targetInterval: 4
     rotationLimit: 360
-    mirror: false
+    baseRotation: 0
     shadow: 9
-    x: 7
+    x: 9
     y: 10
 
-    reload: 2
+    reload: 1
 
 bullet: {
     maxRange: 17000
@@ -999,11 +999,12 @@ bullet: {
     hitEffect: pointHit
 }
     }
+
 {
 name: air-def-mount
     
     type: PointDefenseWeapon
-    targetSwitchInterval: 15
+    targetSwitchInterval: 2
     targetInterval: 10
     rotationLimit: 360
     baseRotation: -45
@@ -1011,7 +1012,7 @@ name: air-def-mount
     x: 9
     y: -20
 
-    reload: 3
+    reload: 1
 
 bullet: {
     maxRange: 17000
@@ -1026,7 +1027,7 @@ bullet: {
 name: air-def-mount
     
     type: PointDefenseWeapon
-    targetSwitchInterval: 15
+    targetSwitchInterval: 2
     layerOffset: 0.002
     targetInterval: 4
     rotationLimit: 360
@@ -1035,7 +1036,7 @@ name: air-def-mount
     x: 10
     y: -15
 
-    reload: 3
+    reload: 1
 
 bullet: {
     maxRange: 17000
