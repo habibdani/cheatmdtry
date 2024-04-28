@@ -667,7 +667,7 @@ shoot: {
 
 bullet: {
     type: MissileBulletType
-    collideTerrain: true
+    collideTerrain: false
     keepVelocity: false
     collidesAir: false
     despawnShake: 4
@@ -701,7 +701,7 @@ bullet: {
 
 fragBullet: {
     type: BasicBulletType
-    collideTerrain: true
+    collideTerrain: false
     pierceBuilding: true
     collidesAir: false
     despawnShake: 0.2
@@ -855,7 +855,7 @@ bullet: {
 
 bullet: {
     type: BasicBulletType
-    collideTerrain: true
+    collideTerrain: false
     collidesAir: false
     height: 14
     width: 8
