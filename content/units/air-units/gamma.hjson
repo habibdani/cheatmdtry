@@ -40,7 +40,7 @@ abilities: [
     layerOffset: -0.007
     sameTypeHealMult: 15
     statusDuration: 540
-    healPercent: 3000
+    healPercent: 30000
     maxTargets: 32
     damage: 180
     reload: 9
@@ -57,7 +57,7 @@ abilities: [
         sameTypeHealMult: 15
 	range: 450.0
         reload: 9
-        healPercent: 3000
+        healPercent: 30000
         sectors: 30
 	maxTargets:5
         effectRadius: 5
@@ -102,7 +102,7 @@ abilities: [
     type: ForceFieldAbility 
     cooldown: 1
     radius: 30
-    regen: 1300
+    regen: 13000
     sides: 6
     max: 25000
     category: effect
@@ -110,8 +110,8 @@ abilities: [
 }
 {
     type: RegenAbility
-    amount: 500
-    percentAmount: 100
+    amount: 5000
+    percentAmount: 1000
 }
 ]
 weapons: [
@@ -338,8 +338,6 @@ weapons: [
     inaccuracy: 15
     reload: 1920
 
-    ejectEffect: casing3
-
     shootSound: artillery
 
     shootStatusDuration: 750
@@ -373,7 +371,7 @@ shoot: {
         lightRadius: 40
         fragBullets: 9
         status: sapped
-        lifetime: 500
+        lifetime: 700
         lightning: 9
         damage: 180
         speed: 1.45
@@ -497,7 +495,7 @@ shoot: {
     beamWidth: 1
 
     bullet: {
-        maxRange: 3000
+        maxRange: 30000
         }
     }
 
@@ -542,7 +540,7 @@ shoot: {
         splashDamage: 45
         homingPower: 0.9
         homingRange: 500
-        healPercent: 100
+        healPercent: 10000
         inaccuracy: 5
         weaveScale: 5
         lifetime: 600
@@ -601,7 +599,7 @@ shoot: {
         shake: 1
 
         incendChance: 0.03
-        healPercent: 10
+        healPercent: 1000
         incendSpread: 5
         incendAmount: 1
 
@@ -684,10 +682,10 @@ bullet: {
     fragBullets: 3
     fragLifeMin: 0
     weaveScale: 6
-    lifetime: 400
+    lifetime: 800
     weaveMag: 2
     speed: 2.25
-    damage: 64
+    damage: 100
 
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
@@ -713,7 +711,7 @@ fragBullet: {
     splashDamageRadius: 13
     splashDamage: 21
     pierceCap: 2
-    lifetime: 150
+    lifetime: 400
     speed: 1.45
     damage: 25
 
@@ -743,6 +741,7 @@ fragBullet: {
 
 bullet: {
     type: SapBulletType
+    collideTerrain: false
     collidesAir: true
     knockback: -1
     length: 120
@@ -751,7 +750,7 @@ bullet: {
     buildingDamageMultiplier: 0.88
 
     sapStrength: 1
-    lifetime: 100
+    lifetime: 400
     damage: 25
 
     shootEffect: shootSmall
@@ -781,6 +780,7 @@ bullet: {
 
 bullet: {
     type: SapBulletType
+    collideTerrain: false
     collidesAir: true
     knockback: -1
     length: 100
@@ -789,8 +789,8 @@ bullet: {
     buildingDamageMultiplier: 0.71
 
     sapStrength: 0.85
-    lifetime: 100
-    damage: 45
+    lifetime: 400
+    damage: 25
 
     shootEffect: shootSmall
     despawnEffect: none
@@ -819,6 +819,7 @@ bullet: {
 
 bullet: {
     type: SapBulletType
+    collideTerrain: false
     collidesAir: true
     knockback: -1
     length: 80
@@ -827,8 +828,8 @@ bullet: {
     buildingDamageMultiplier: 0.39
 
     sapStrength: 0.65
-    lifetime: 100
-    damage: 75
+    lifetime: 400
+    damage: 25
 
     shootEffect: shootSmall
     despawnEffect: none
@@ -860,7 +861,7 @@ bullet: {
     height: 14
     width: 8
 
-    lifetime: 45
+    lifetime: 300
     damage: 18
     speed: 6
 
@@ -892,7 +893,7 @@ bullet: {
 
     velocityRnd: 0.25
     inaccuracy: 2
-    recoil: 0
+    recoil: 2
     reload: 750
     
     shootSound: missile
@@ -911,7 +912,7 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     despawnShake: 0
-    knockback: 0
+    knockback: 2
     hitShake: 0
     shrinkX: 0.15
     shrinkY: 0.3
@@ -930,7 +931,7 @@ bullet: {
     splashDamage: 64
     homingPower: 80
     status: sapped
-    lifetime: 260
+    lifetime: 500
     lightning: 4
     damage: 32
     speed: 3.2
@@ -967,9 +968,9 @@ name: air-def-mount
     reload: 1
 
 bullet: {
-    maxRange: 13000
+    maxRange: 130000
 
-    damage: 23.5
+    damage: 30000
 
     shootEffect: sparkShoot
     hitEffect: pointHit
@@ -991,9 +992,9 @@ name: air-def-mount
     reload: 1
 
 bullet: {
-    maxRange: 17000
+    maxRange: 170000
 
-    damage: 300
+    damage: 30000
 
     shootEffect: sparkShoot
     hitEffect: pointHit
@@ -1015,9 +1016,9 @@ name: air-def-mount
     reload: 1
 
 bullet: {
-    maxRange: 17000
+    maxRange: 170000
 
-    damage: 31.5
+    damage: 31000
 
     shootEffect: sparkShoot
     hitEffect: pointHit
@@ -1039,9 +1040,9 @@ name: air-def-mount
     reload: 1
 
 bullet: {
-    maxRange: 17000
+    maxRange: 170000
 
-    damage: 300
+    damage: 30000
 
     shootEffect: sparkShoot
     hitEffect: pointHit
@@ -1078,12 +1079,12 @@ bullet: {
     sideLength: 180
     sideWidth: 1.5
     sideAngle: 15
-    length: 1000
+    length: 4000
     width: 27.5
 
     buildingDamageMultiplier: 1.25
 
-    damage: 132
+    damage: 100
     
     shootEffect: shockwave
 
