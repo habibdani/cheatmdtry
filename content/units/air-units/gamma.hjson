@@ -131,7 +131,6 @@ weapons: [
     cooldownTime: 4000
 
     shootStatusDuration: 540
-    shootStatus: unmoving
     shoot: {
         firstShotDelay: 5
         lifetime: 1
@@ -330,18 +329,17 @@ weapons: [
     rotate: true
     shadow: 30
     shootY: 22
-    recoil: 10
+    recoil: 0
     shake: 32
     y: -14
     x: 0
 
-    inaccuracy: 15
+    inaccuracy: 0
     reload: 1920
 
     shootSound: artillery
 
     shootStatusDuration: 750
-    shootStatus: slow
 shoot: {
     shotDelay: 60
     shots: 3
@@ -433,7 +431,7 @@ shoot: {
     name: reign-weapon
     layerOffset: -0.0001
     shootCone: 45
-    recoil: 5
+    recoil: 0
     x: 7
     y: 11.5
 
@@ -541,7 +539,7 @@ shoot: {
         homingPower: 0.9
         homingRange: 500
         healPercent: 10000
-        inaccuracy: 5
+        inaccuracy: 0
         weaveScale: 5
         lifetime: 600
       	weaveMag: 2
@@ -580,7 +578,7 @@ shoot: {
     cooldownTime: 170
     rotateSpeed: 4
     reload: 170
-    recoil: 1
+    recoil: 0
     shake: 3
 
     shootSound: beam
@@ -619,7 +617,7 @@ shoot: {
     alternate: false
     rotateSpeed: 3
     rotate: true
-    recoil: 1
+    recoil: 0
     x: 15
     y: -11
 
@@ -654,7 +652,7 @@ shoot: {
     velocityRnd: 0.2
     inaccuracy: 45
     reload: 120
-    recoil: 1.5
+    recoil: 0
 
     shootSound: missile
 
@@ -893,13 +891,12 @@ bullet: {
 
     velocityRnd: 0.25
     inaccuracy: 2
-    recoil: 2
+    recoil: 0
     reload: 750
     
     shootSound: missile
 
     shootStatusDuration: 640
-    shootStatus: slow
 shoot: {
     shotDelay: 12
     shots: 32
@@ -974,6 +971,8 @@ bullet: {
 
     shootEffect: sparkShoot
     hitEffect: pointHit
+    colors: [ 00b8ff, ff9c5a, ffffff ]
+
 }
     }
 {
@@ -998,6 +997,8 @@ bullet: {
 
     shootEffect: sparkShoot
     hitEffect: pointHit
+    colors: [ 00b8ff, ff9c5a, ffffff ]
+
 }
     }
 
@@ -1022,6 +1023,8 @@ bullet: {
 
     shootEffect: sparkShoot
     hitEffect: pointHit
+    colors: [ 00b8ff, ff9c5a, ffffff ]
+
 }
     }
 {
@@ -1046,6 +1049,7 @@ bullet: {
 
     shootEffect: sparkShoot
     hitEffect: pointHit
+    colors: [ 00b8ff, ff9c5a, ffffff ]
 }
     }
 {
@@ -1060,7 +1064,7 @@ name: large-laser-mount
     rotate: true
     shadow: 20
     shootY: 9
-    recoil: 4
+    recoil: 0
     shake: 0
     x: 15
     y: 2
