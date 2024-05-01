@@ -439,7 +439,6 @@ shoot: {
     reload: 9
     shake: 2
 
-    ejectEffect: casing4
     shootSound: bang
 
     bullet: {
@@ -489,7 +488,7 @@ shoot: {
     x: 14
     y: 10
 
-    repairSpeed: 10
+    repairSpeed: 1000
     beamWidth: 1
 
     bullet: {
@@ -519,7 +518,7 @@ shoot: {
         shotDelay: 8
         barrels: 3
         spread: 4
-        shots: 4
+        shots: 6
     }
 
     shootSound: missile
@@ -577,7 +576,7 @@ shoot: {
 
     cooldownTime: 170
     rotateSpeed: 4
-    reload: 170
+    reload: 20
     recoil: 0
     shake: 3
 
@@ -589,11 +588,11 @@ shoot: {
         collidesTeam: true
         drawSize: 120
         maxRange: 200
-        length: 550
+        length: 1500
         width: 2
 
-        lifetime: 155
-        damage: 100
+        lifetime: 15
+        damage: 150
         shake: 1
 
         incendChance: 0.03
@@ -971,7 +970,7 @@ bullet: {
 
     shootEffect: sparkShoot
     hitEffect: pointHit
-    colors: [ 00b8ff, ff9c5a, ffffff ]
+    colors: ff9c5a
 
 }
     }
@@ -997,7 +996,7 @@ bullet: {
 
     shootEffect: sparkShoot
     hitEffect: pointHit
-    colors: [ 00b8ff, ff9c5a, ffffff ]
+    colors: ff9c5a
 
 }
     }
@@ -1023,7 +1022,7 @@ bullet: {
 
     shootEffect: sparkShoot
     hitEffect: pointHit
-    colors: [ 00b8ff, ff9c5a, ffffff ]
+    colors: 00b8ff
 
 }
     }
@@ -1049,7 +1048,7 @@ bullet: {
 
     shootEffect: sparkShoot
     hitEffect: pointHit
-    colors: [ 00b8ff, ff9c5a, ffffff ]
+    colors: 00b8ff
 }
     }
 {
@@ -1063,7 +1062,7 @@ name: large-laser-mount
     inaccuracy: 0
     rotate: true
     shadow: 20
-    shootY: 9
+    shootY: 0
     recoil: 0
     shake: 0
     x: 15
@@ -1092,7 +1091,7 @@ bullet: {
     
     shootEffect: shockwave
 
-    colors: [ ec7458aa, ff9c5a, ffffff ]
+    colors: [ 00b8ff, ff9c5a, ffffff ]
 }
     }
 
