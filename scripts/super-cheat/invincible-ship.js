@@ -56,13 +56,13 @@ const invincibleBulletType = (() => {
         },
     });
 
-    bt.damage = Infinity;
-    bt.splashDamage = Infinity;
+    bt.damage = 1000;
+    // bt.splashDamage = Infinity;
     bt.speed = 24.1;
     bt.hitSize = 5;
     bt.width = 7;
     bt.height = 35;
-    bt.lifetime = 10;
+    bt.lifetime = 50;
     bt.inaccuracy = 0;
     bt.despawnEffect = Fx.hitBulletSmall;
     bt.keepVelocity = false;
