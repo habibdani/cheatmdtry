@@ -56,7 +56,7 @@ const invincibleBulletType = (() => {
         },
     });
 
-    bt.damage = 1000;
+    bt.damage = 50;
     // bt.splashDamage = Infinity;
     bt.speed = 24.1;
     bt.hitSize = 5;
