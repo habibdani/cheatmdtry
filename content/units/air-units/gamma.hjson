@@ -479,7 +479,6 @@ shoot: {
         	}
         }
 }
-
 {
     name: repair-beam-weapon-center-large
     type: RepairBeamWeapon
@@ -495,7 +494,6 @@ shoot: {
         maxRange: 30000
         }
     }
-
 {
     name: hidden-plasma-launcher
     layerOffset: -0.001
@@ -556,7 +554,6 @@ shoot: {
 	trailLength: 5
         }
     }
-
 {
     name: plasma-laser-mount
     targetSwitchInterval: 35

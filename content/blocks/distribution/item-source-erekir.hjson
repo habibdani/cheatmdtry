@@ -1,0 +1,33 @@
+type: GenericCrafter
+health: 999999999
+category: distribution
+craftTime: 6
+itemCapacity: 1000000
+consumes: {
+}
+requirements: [
+]
+research: item-source2 
+buildTime: 0
+outputItems: [
+  copper/50
+  lead/50
+  titanium/50
+  plastanium/50
+  sand/50
+  coal/50
+  scrap/50
+  spore-pod/50
+  blast-compound/50
+  pyratite/50
+  thorium/50
+  silicon/50
+  graphite/50
+  phase-fabric/50
+  surge-alloy/50
+  beryllium/50
+  carbide/50
+  oxide/50
+  tungsten/50
+  metaglass/50
+]
