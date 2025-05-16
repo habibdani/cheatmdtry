@@ -1,9 +1,0 @@
-type: OverdriveProjector
-health: 99999999
-size: 3
-speedBoost: 2
-range: 40
-requirements: [
-]
-category: effect
-research: wall
